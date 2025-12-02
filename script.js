@@ -180,7 +180,7 @@ fetch('data.json')
         return;
     }
 
-    // Create cards container
+    // Create container for all batch cards
     const container = document.createElement("div");
     container.style.display = "flex";
     container.style.flexWrap = "wrap";
@@ -191,16 +191,15 @@ fetch('data.json')
     $("#mainContainer").append(container);
 
     cocktailsWithBatch.forEach(drink => {
-        const card = document.createElement("div");
-        card.classList.add("batch-cards");
-
-        // Title
-        const title = document.createElement("h2");
-        title.textContent = `${drink.name} Batches`;
-        card.appendChild(title);
-
-        // Main batch
+        // Main batch card
         if (drink.batch && drink.batch.length > 0) {
+            const card = document.createElement("div");
+            card.classList.add("batch-cards");
+
+            const title = document.createElement("h2");
+            title.textContent = `${drink.name} ( Batch )`;
+            card.appendChild(title);
+
             const ul = document.createElement("ul");
             drink.batch.forEach(recipe => {
                 const li = document.createElement("li");
@@ -208,27 +207,30 @@ fetch('data.json')
                 ul.appendChild(li);
             });
             card.appendChild(ul);
+            container.appendChild(card);
         }
 
-        // Alt batch(es)
+        // Alt batch card
         if (drink["alt. batch"] && drink["alt. batch"].length > 0) {
-            drink["alt. batch"].forEach((altRecipe, i) => {
-                const altTitle = document.createElement("p");
-                altTitle.textContent = i === 0 ? "Alternative Batch:" : `Alternative Batch ${i+1}:`;
-                altTitle.classList.add("alt-title");
-                card.appendChild(altTitle);
+            const altCard = document.createElement("div");
+            altCard.classList.add("batch-cards");
 
-                const ulAlt = document.createElement("ul");
-                const liAlt = document.createElement("li");
-                liAlt.textContent = altRecipe;
-                ulAlt.appendChild(liAlt);
-                card.appendChild(ulAlt);
+            const altTitle = document.createElement("h2");
+            altTitle.textContent = `${drink.name} ( Alt Batch )`;
+            altCard.appendChild(altTitle);
+
+            const ulAlt = document.createElement("ul");
+            drink["alt. batch"].forEach(step => {
+                const li = document.createElement("li");
+                li.textContent = step;
+                ulAlt.appendChild(li);
             });
+            altCard.appendChild(ulAlt);
+            container.appendChild(altCard);
         }
-
-        container.appendChild(card);
     });
 });
+
 
 
 

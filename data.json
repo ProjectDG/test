@@ -59,7 +59,7 @@
             ],
             "garnish" : ["Dehydrated Lemon & Basil Sprig"],
             "section" : "cocktails",
-            "photo" : "callMeKoko",
+            "photo" : "callMeKokoTequila",
             "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Dehydrated Lemon & Basil Sprig"],
             "batch" : null,
             "alt. batch" : null
@@ -86,18 +86,18 @@
             "alt. batch" : null
           },
           {
-            "name" : "Olive You Or Olive Your Dirty",
+            "name" : "Olive Your Dirty",
             "glass" : ["Martini Glass"],
             "rim" : null,
             "wine" : null,
             "liquor" : ["Vodka or Gin - 2.5 oz"],
             "liqueur" : null,
             "vermouth" : ["Dry Vermouth - .5 oz"],
-            "mixers" : [""],
-            "garnish" : [""],
+            "mixers" : ["Barsmith Dirty Martini - .75 oz"],
+            "garnish" : ["1 to 3 Olives"],
             "section" : "cocktails",
-            "photo" : null,
-            "instructions" : [""],
+            "photo" : "oliveYouDirty",
+            "instructions" : ["In a mixing glass or Shaker, add gin ( or vodka ), dry vermouth and olive brine.", "Fill with ice and stir ( for a smoother, clearer drink ) or shake ( for a cloudier, more aerated and chilled drink ).", "Strain into a chilled martini glass.", "Garnish with olives."],
             "batch" : null,
             "alt. batch" : null
           },
@@ -116,6 +116,22 @@
             "instructions" : ["Rim Glass (optional)", "Fill Collins Glass with Ice.", "Add Tequila & Lime Juice", "Top with Grapefruit Soda", "Garnish with Grapefruit Wedge or Lime Wheel"],
             "batch" : null,
             "alt. batch" : null
+          },
+          {
+            "name" : "Spicy T & M",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Tajin (Half)"],
+            "wine" : null,
+            "liquor" : ["Jalapeno Infused Tequila - 1.5 oz"],
+            "liqueur" : ["Cointreau - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Butterfly Pea Flower Syrup - .5 oz", "Lime Juice - .5 oz", "Pineapple Juice - 2 oz,"],
+            "garnish" : ["Pineapple Frond," ,"Dehydrated Lime & Jalapeno Slice"],
+            "section" : "cocktails",
+            "photo" : "spicyTM",
+            "instructions" : ["Add ice to rocks glass & pour .5 oz butterfly pea flower syrup", "In Shaker the rest of the ingredients with ice & shake vigorously", "Strain over fresh ice in rocks glass with butterfly pea flower syrup", "Garnish with pineapple frond, dehydrated lime & jalapeno slice"],
+            "batch" : ["Jalapeno Infused Tequila Batch - 1 Liter", "Fresh Jalapenos - 2 to 3 ea (Sliced)", "Tequila - 1 Liter", "Combine ingredients in a sealed container.", "Let sit for 72 hours depending on desired spice level.", "Strain out jalapenos and store tequila for service."],
+            "alt. batch" : ["Butterfly pea flower syrup", "Sugar - 2 cups", "Hot water - 1 cup", "butterfly pea Flowers - 4 Tbsp", "Whisk & let stand for 10 minutes or until dark blue in color", "Strain out flowers and let cool"]
           },
           {
             "name" : "Crouching Tiger",
@@ -2563,8 +2579,7 @@
                         "Old Tom Gin",
                         "Plymouth Gin"
                     ]
-                    }
-                    ,
+                    },
                 {
                     "name": "Vodka or Gin",
                     "description": [
@@ -2590,6 +2605,19 @@
                         "Jameson Irish Whiskey",
                         "Tullamore D.E.W.",
                         "Bushmills Original"
+                      ]
+                    },
+                    {
+                      "name": "Jalapeno Infused Tequila",
+                      "description": [
+                        "A tequila infusion made by steeping fresh jalapeño slices in blanco tequila until the desired heat level is reached.",
+                        "Bright, vegetal, and spicy, with natural heat from jalapeño oils balanced by the clean character of blanco tequila.",
+                        "Commonly used in spicy margaritas, palomas, and other cocktails requiring a controlled kick of heat."
+                      ],
+                      "alternatives": [
+                        "Ancho Reyes Verde",
+                        "Habanero-Infused Tequila",
+                        "Jalapeño Simple Syrup (for a milder spice)"
                       ]
                     },
                     {
@@ -3251,6 +3279,19 @@
                 "items": [
                 { "name": "Agave", "description": [], "alternatives": [] },
                 { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Butterfly Pea Flower Syrup",
+                  "description": [
+                    "A vibrant indigo syrup made from butterfly pea flowers.",
+                    "Changes color to pink or purple when mixed with acidic ingredients.",
+                    "Adds light floral notes and dramatic visual effect to cocktails."
+                  ],
+                  "alternatives": [
+                    "Lavender syrup",
+                    "Hibiscus syrup",
+                    "Blue curaçao (for color, not flavor)"
+                  ]
+                },
                 { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
                 {
                   "name": "Honey Syrup",
@@ -3484,6 +3525,19 @@
             {
                 "category": "Specialty & Misc",
                 "items": [
+                  {
+                    "name": "Barsmith Dirty Martini",
+                    "description": [
+                      "A pre-made dirty martini mix crafted from premium olive brine and filtered water.",
+                      "Designed to create a consistent, balanced dirty martini with the ideal level of salinity.",
+                      "Offers a clean, savory olive flavor without the bitterness sometimes found in raw brines."
+                    ],
+                    "alternatives": [
+                      "Filthy Olive Brine",
+                      "Stirrings Dirty Martini Mix",
+                      "Homemade Olive Brine"
+                    ]
+                  },
                 { "name": "Chili Tincture", "description": [], "alternatives": [] },
                 {
                   "name": "Egg White",
