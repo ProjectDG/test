@@ -1,0 +1,3999 @@
+[  
+    {
+      "Contents" : 
+      {
+        "Menu Drinks" :                  42,
+
+        "Retired Drinks" :               330,
+
+        "Search Menu Drinks" :           500,
+
+        "All Other Drinks" :             718,
+
+        "Inventory / Rim Garnishes" :    1660,
+
+        "Batch Components" :             1762,
+
+        "Sodas & Carbonated" :           1788,
+
+        "Bitters" :                      1900,
+
+        "Spirits" :                      1984,
+
+        "Liqueurs" :                     2398,
+
+        "Wines & Fortified" :            2704,
+
+        "Champagne & Sparkling Wine" :   2789,
+
+        "Syrups & Sweeteners" :          2844,
+
+        "Juices" :                       2919,
+
+        "Fresh & Garnishes" :            3014,
+
+        "Missing Ingredients" :          3085
+      },
+
+
+
+
+
+        "drinks" : 
+        [
+          {
+            "name" : "Call Me 'Koko'",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Rivi Gin - 1.5 oz,",
+                "Blanco Tequila - .5 oz"
+            ],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Lychee Syrup - .5 oz,",
+                "Lemon Juice - .75 oz,",
+                "Pomegranate Juice - .75 oz"
+            ],
+            "garnish" : ["Dehydrated Lemon & Basil Sprig"],
+            "section" : "cocktails",
+            "photo" : "callMeKoko",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Dehydrated Lemon & Basil Sprig"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Give Me Park Avenue",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Rye Whiskey - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Sweet Vermouth - 1 oz"],
+            "mixers" : ["Angostura Bitters - 2 to 3 Dashes"],
+            "garnish" : ["Cherry or Orange Twist"],
+            "section" : "cocktails",
+            "photo" : "giveMeParkAvenue",
+            "instructions" : [
+              "Add rye whiskey, sweet vermouth, and bitters to a mixing glass filled with ice.",
+              "Stir until well chilled.",
+              "Strain into a  rocks glass with big cube.",
+              "Garnish with a cherry or orange twist."
+            ],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Olive You Or Olive Your Dirty",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Vodka or Gin - 2.5 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Dry Vermouth - .5 oz"],
+            "mixers" : [""],
+            "garnish" : [""],
+            "section" : "cocktails",
+            "photo" : null,
+            "instructions" : [""],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Pink Horizon",
+            "glass" : ["Collins Glass"],
+            "rim" : ["Half Salt or", "Guest Choice"],
+            "wine" : null,
+            "liquor" : ["Blanco Tequila - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .5 oz", "Grapefruit Soda - 2 oz"],
+            "garnish" : ["Grapefruit Wedge or Lime Wheel"],
+            "section" : "cocktails",
+            "photo" : "pinkHorizon",
+            "instructions" : ["Rim Glass (optional)", "Fill Collins Glass with Ice.", "Add Tequila & Lime Juice", "Top with Grapefruit Soda", "Garnish with Grapefruit Wedge or Lime Wheel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Crouching Tiger",
+            "glass" : ["Pint Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : null,
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Lime Juice - 1 oz,",
+                "Matcha Syrup - 1 oz,",
+                "Pineapple Juice - .25 oz,",
+                "Shiso Leaf - 1,",
+                "Soda Water (Topped)"
+            ],
+            "garnish" : ["Flower"],
+            "section" : "cocktails",
+            "photo" : "crouchingTiger",
+            "instructions" : ["Build In Glass", "Stir Lightly", "Add Ice", "Garnish With Flower"],
+            "batch" : ["Simple Syrup - 1 Quart", "Matcha - 1 Scoop", "Bring to a boil.", "Let cool."],
+            "alt. batch" : null
+          },
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {
+            "name" : "After Hours",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "St. George Botanivore - 2 oz,",
+                "St. George Citrus - 1 oz"
+            ],
+            "liqueur" : null,
+            "vermouth" : ["Lillet Blanc - 1 oz"],
+            "mixers" : ["2 Dashes Orange Bitters"],
+            "garnish" : ["Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Garnish With Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Beachy Lemonade",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["House Made Lemonade - Fill to Top"],
+            "garnish" : ["Dehydrated Lemon & Mint Sprig"],
+            "section" : null,
+            "photo" : "beachyLemonade",
+            "instructions" : ["Build in glass", "Garnish with dehydrated lemon & mint sprig"],
+            "batch" : ["Fresh Squeezed Lemon Juice - 8 oz", "Water - 4 cups", "Sugar - 6 oz", "Make Double or Triple Batch Depending on Popularity"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Butterfly Effect",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Los Vecinos Mezcal - 1 oz,",
+                "Butterfly Pea Gin - .5 oz (Float)" 
+            ],
+            "liqueur" : ["St. Germain - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Egg White - 1 oz,",
+                "Lemon Juice - .5 oz,",
+                "Lime Juice - .5 oz,",
+                "Simple Syrup - .5 oz"
+            ],
+            "garnish" : ["Flower"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Dry Shake", "Add Ice & Shake Vigorously" , "Double Strain Over Big Rock", "Let Settle", "Float with Butterfly Pea / Honeysuckle Gin", "Garnish With Flower"],
+            "batch" : ["Coming Soon..."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Dragon's Hive",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : [
+                "Dos Hombres Mezcal - 1.5 oz,",
+                "Butterfly Pea Gin - .25 oz" 
+            ],
+            "liqueur" : ["Chinola Passion Fruit - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Honey Syrup - .75 oz,",
+                "Lemon Juice - 1 oz,"
+            ],
+            "garnish" : ["Dehydrated Lemon & Flower"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" , "Double Strain Into Coupe Glass", "Garnish With Dehydrated Lime & Flower"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Empress Wu",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : ["Aqua Perfecta: Basil Brandy - 1 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .75 oz,", "Simple Syrup - .75 oz"],
+            "garnish" : ["Basil Sprig"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Lotus Blossom",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : ["Living Jewel Sake - 1.5 oz"],
+            "liquor" : ["Vodka or Gin - 1.5 oz"],
+            "liqueur" : null,
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : ["Plum Wine Foam (To Top)"],
+            "garnish" : ["Plum Wine Foam & Edible Flower"],
+            "section" : null,
+            "photo" : "lotusBlossom",
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Into Martini Glass", "Top With Plum Wine Foam & Dehydrated Plum"],
+            "batch" : ["Egg Whites - 2","Plum Wine - 6 oz", "Agave - 5 oz", "Lemon Juice - 3 oz"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Midnight Hour",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Plantation Dark Rum - 2.5 oz"],
+            "liqueur" : ["Aqua Perfecta Basil Brandy - 1 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .5 oz,", "Five Spice Syrup - .75 oz"],
+            "garnish" : ["Star Anise"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "My Oh Mai Tai",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["My Oh Mai Tai Batch - 3 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : null,
+            "garnish" : ["Top with Foam,", "Dehydrated Orange & Cherry"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Cambro", "Stir Until Thoroughly Mixed", "Refridgerate for 24 Hours", "Strain Through Coffee Filter into New Container"],
+            "batch" : ["White Rum - 1 Cup", "Dry Curacao - 1/2 Cup", "Lime Juice - 3/4 Cup,", "Milk - 2 Cups", "Orgeat - 1/2 Cup"],
+            "alt. batch" : ["Egg White - 2", "Passion Fruit Liqueur - 5 oz", "Cherry Liqueur - 5 oz", "Lime Juice - 5 oz", "Shake Vigorously in Foam Canister", "Let Sit for 25 minutes"]
+          },
+          {
+            "name" : "Open Sesame",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sesame Gin - 1 oz,", "St. George Terroir - 1 oz"],
+            "liqueur" : ["Domaine De Canton - .5 oz,", "Dry Curacao - .25 oz"],
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : ["Lemon Bitters - 3 Dashes"],
+            "garnish" : ["Flashed Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish with Flashed Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "PJ Killa",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Coconut Rum - 1.5 oz"],
+            "liqueur" : [
+                "Luxardo Cherry liqueur - .5 oz,",
+                "Drambuie - .25 oz,"
+            ],
+            "vermouth" : ["Lillet Blanc - .25 oz"],
+            "mixers" : [
+                "Lime Juice - .75 oz,",
+                "Demerara Syrup - .5 oz,",
+                "Pineapple Juice - .5 oz"
+            ],
+            "garnish" : [
+                "Cinnamon Stick & Shavings,",
+                "Dehydrated Lime"
+            ],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Cinnamon Stick & Shavings", "Dehydrated Lime"],
+            "batch" : ["Coconut Rum - 18 oz", "Luxardo Cherry liqueur - 6 oz", "Drambuie - 3 oz", "Lillet Blanc - 3 oz", "Pour Into Liter Bottle & Mix", "NOTE: 2.5 oz of batch per drink"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "PJK Old Fashioned",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sazerac Rye - 2.5 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : [
+                "Angostura Bitters - 4 Dashes,",
+                "Orange Bitters - 4 Dashes,",
+                "Black Tea Syrup - .25 oz"
+            ],
+            "garnish" : ["Orange Peel & Cherry"],
+            "section" : "originals",
+            "photo" : "pjkOldFashioned",
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel & Cherry"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Rose Colored Glasses",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Rose Bud Infused Vodka - 1.5 oz"],
+            "liqueur" : ["Campari - .25 oz,", "Cointreau - .75 oz"],
+            "vermouth" : null,
+            "mixers" : ["Honey Fig Foam", "Lemon Juice - 1 oz,", "Simple Syrup - .5 oz"],
+            "garnish" : ["Gold Dust & Dehydrated Rose Bud"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass", "Garnish With Dehydrated Rose Bud & Gold Dust"],
+            "batch" : ["Honey / Fig Foam Batch Coming Soon..."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Sake Sangria",
+            "glass" : ["Wine Glass"],
+            "rim" : null,
+            "wine" : ["Living Jewel Sake - 2 oz"],
+            "liquor" : null,
+            "liqueur" : ["Domaine De Canton - .5 oz,", "Chambord - .25 oz,", "Dry Curacao - .25 oz"],
+            "vermouth" : null,
+            "mixers" : ["Pineapple Juice - .75 oz,", "Pomegranate Juice - .75 oz,", "Lemon Juice - .5 oz"],
+            "garnish" : ["Pineapple Frond & Dehydrated Orange"],
+            "section" : "originals",
+            "photo" : "sakeSangria",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Dirty Dump Into Wine Glass & Top with Club Soda", "Garnish With Dehydrated Orange & Pineapple Frond"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Salt & Sun",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Salt (optional)"],
+            "wine" : null,
+            "liquor" : ["Corazon Blanco - 1.5 oz"],
+            "liqueur" : ["Gran Gala - .5 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Lime Juice - 1.5 oz,",
+                "Agave - 1 oz"
+            ],
+            "garnish" : ["Dehydrated Lime Wheel"],
+            "section" : "originals",
+            "photo" : "saltAndSun",
+            "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass", "Garnish With Dehydrated Lime Wheel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Shanghai Street Fight",
+            "glass" : ["Rocks Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Sazerac Rye - 2 oz"],
+            "liqueur" : ["Aperol - .5 oz,", "Fernet-Branca - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Angostura Bitters - 1 Dash"],
+            "garnish" : ["Orange Peel"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Big Rock", "Garnish With Orange Peel"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Shiso Lovely",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 1.5 oz"],
+            "liqueur" : ["St. Germain - 1 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Shiso Leaf - 1,",
+                "Lemon Juice - 1 oz,",
+                "Simple Syrup - .5 oz"
+            ],
+            "garnish" : ["Shiso Leaf"],
+            "section" : "originals",
+            "photo" : "shisoLovely",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Club Soda", "Garnish With Shiso Leaf"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Snow On Fuji",
+            "glass" : ["Coupe Glass"],
+            "rim" : null,
+            "wine" : ["Topped with Albert Bichot Brut"],
+            "liquor" : ["Fuji Apple Infused Gin - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lemon Juice - 1 oz,", "Lychee Syrup - .75 oz"],
+            "garnish" : ["Lychee & Mint Sprig"],
+            "section" : null,
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Coupe Glass & Top with Brut", "Garnish With Lychee & Mint Sprig"],
+            "batch" : ["Blend 2 Fuji Apples with Gin of Choice", "Let Sit for 24 to 48 Hours", "Strain & Prepare for Service"],
+            "alt. batch" : null
+          },
+          {
+            "name" : "That Yuzu, That You Do",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Salt"],
+            "wine" : null,
+            "liquor" : ["Corazon Blanco - 2 oz"],
+            "liqueur" : ["Grand Marnier - .5 oz"],
+            "vermouth" : null,
+            "mixers" : ["Lime Juice - .75 oz,", "Yuzu - .25 oz,", "Agave - .25 oz"],
+            "garnish" : ["Dehydrated Lime"],
+            "section" : "originals",
+            "photo" : null,
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Dehydrated Lime"],
+            "batch" : null,
+            "alt. batch" : null
+          },
+          {
+            "name" : "Up All Night",
+            "glass" : ["Martini Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Wheatley Vodka - 2 oz"],
+            "liqueur" : [
+                "Caffe Borghetti Espresso - .75 oz,",
+                "Montenegro - .25 oz"
+            ],
+            "vermouth" : null,
+            "mixers" : [
+                "Five Spice Syrup - .5 oz,",
+                "Espresso - 1 oz"
+            ],
+            "garnish" : ["Espresso Beans - 3 ea"],
+            "section" : "originals",
+            "photo" : "upAllNight",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish With 3 Espresso Beans"],
+            "batch" : ["Star Anise - 5 Pods", "Fennel Seeds - 1 Tbsp", "Cinnamon Stick - 1 ea", "Szechuan Peppercorn (or Black Pepper) - 1 Tbsp", "Grind spices into a powder.", "Water - 2 Cups", "Sugar - 1.75 Cups", "Add ingredients together and bring to a boil until thickened."],
+            "alt. batch" : null
+          },
+          {
+            "name" : "Zen Inferno",
+            "glass" : ["Rocks Glass"],
+            "rim" : ["Tajin"],
+            "wine" : null,
+            "liquor" : ["Casamigos Reposado - 1.5 oz"],
+            "liqueur" : ["Gran Gala - .75 oz"],
+            "vermouth" : null,
+            "mixers" : [
+                "Chili Tincture - 3 drops,",
+                "Lime Juice - .5 oz,",
+                "Mango Puree - 1 oz,",
+                "Pineapple Juice - .75 oz"
+            ],
+            "garnish" : ["Pineapple Frond &", "Dehydrated Chile De Arbol"],
+            "section" : null,
+            "photo" : "zenInferno",
+            "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously", "Strain Over Fresh Ice", "Garnish With Pineapple Frond & Dehydrated Chile De Arbol"],
+            "batch" : ["Mangos - 2", "Rice Vinegar - 2 tbsp","Sugar - 2 tbsp"],
+            "alt. batch" : null
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            {
+                "name" : "Aperol Spritz",
+                "glass" : ["Wine Glass"],
+                "rim" : null,
+                "wine" : ["Prosecco - 3 oz"],
+                "liquor" : null,
+                "liqueur" : ["Aperol - 2 oz"],
+                "vermouth" : null,
+                "mixers" : ["Club Soda"],
+                "garnish" : ["Orange Wheel"],
+                "section" : "searchDrinks",
+                "photo" : "aperolSpritz",
+                "instructions" : ["Build In Glass", "Garnish with Orange Wheel"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Cosmopolitan",
+                "glass" : ["Martini Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Vodka - 2 oz"],
+                "liqueur" : ["Cointreau - .75 oz"],
+                "vermouth" : null,
+                "mixers" : ["Cranberry Juice - 1.5 oz,", "Lime Juice - .5 oz"],
+                "garnish" : ["Lemon Twist"],
+                "section" : "searchDrinks",
+                "photo" : "cosmopolitan",
+                "instructions" : ["Add Ingredients to Mixing Tin", "Add Ice & Shake Vigorously", "Double Strain Into Martini Glass", "Garnish with Lemon Twist"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "French Martini",
+                "glass" : ["Martini or Coupe Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Vodka - 2 oz"],
+                "liqueur" : ["Chambord - .5 oz"],
+                "vermouth" : null,
+                "mixers" : ["Pineapple Juice - 1 oz"],
+                "garnish" : null,
+                "section" : "searchDrinks",
+                "photo" : "frenchMartini",
+                "instructions" : ["Add the vodka, Chambord and pineapple juice into a shaker with ice and shake until well-chilled.", "Fine-strain into a chilled cocktail glass."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Hugo Spritz",
+                "glass" : ["Wine Glass"],
+                "rim" : null,
+                "wine" : ["Prosecco - 4 oz"],
+                "liquor" : null,
+                "liqueur" : ["St. Germain - 2 oz"],
+                "vermouth" : null,
+                "mixers" : ["Club Soda - 1 oz,", "Mint Sprig (Muddled)"],
+                "garnish" : ["Mint Sprig & Lime Wheel"],
+                "section" : "searchDrinks",
+                "photo" : "hugoSpritz",
+                "instructions" : ["Add the St. Germain and mint sprig into a wine glass", "Gently muddle", "Add ice, the prosecco and the soda water and stir briefly", "Gently to combine", "Garnish with a mint sprig and a lime wheel."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name": "Lychee Martini (Classic)",
+                "glass": ["Martini Glass"],
+                "rim": null,
+                "wine": null,
+                "liquor": ["Vodka - 2 oz"],
+                "liqueur": null,
+                "vermouth": ["Dry Vermouth - .5 oz"],
+                "mixers": ["Lychee Syrup - 1 oz"],
+                "garnish": ["Lychee Fruit"],
+                "section": "searchDrinks",
+                "photo": "classicLycheeMartini",
+                "instructions": ["Add Ingredients to Mixing Glass", "Stir until well chilled and properly diluted.", "Strain into a chilled martini glass.", "Garnish with a lychee fruit."],
+                "batch": null,
+                "alt. batch": null
+            },
+            {
+                "name" : "Mai Tai",
+                "glass" : ["Rocks Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Rum - 1.5 oz", "Dark Rum (Float)"],
+                "liqueur" : ["Cointreau - .75 oz"],
+                "vermouth" : null,
+                "mixers" : ["Lime Juice - .75 oz,", "Orgeat - .5 oz"],
+                "garnish" : ["Orange, Cherry & Mint Sprig"],
+                "section" : "searchDrinks",
+                "photo" : "maiTai",
+                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Orange, Cherry & Mint Sprig"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Manhattan",
+                "glass" : ["Martini or Coupe Glass"],
+                "rim" : null,
+                "wine" : ["Sweet Vermouth - 1 oz"],
+                "liquor" : ["Rye Whiskey - 2 oz"],
+                "liqueur" : null,
+                "vermouth" : null,
+                "mixers" : ["Angostura Bitters - 2 to 3 Dashes"],
+                "garnish" : ["Cherry or Lemon Twist"],
+                "section" : "searchDrinks",
+                "photo" : "manhattan",
+                "instructions" : ["Add the rye whiskey, sweet vermouth, and bitters into a mixing glass with ice and stir until well-chilled.", "Strain into a chilled martini or coupe glass." ,"Garnish with a brandied cherry (or a lemon twist, if preferred)."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Naked & Famous",
+                "glass" : ["Coupe Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Mezcal - .75 oz"],
+                "liqueur" : ["Aperol - .75 oz,", "Yellow Chartreuse - .75 oz"],
+                "vermouth" : null,
+                "mixers" : ["Lime Juice - .75 oz"],
+                "garnish" : null,
+                "section" : "searchDrinks",
+                "photo" : "nakedAndFamous",
+                "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain into a chilled coupe glass."],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Negroni",
+                "glass" : ["Rocks Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Gin - 1 oz"],
+                "liqueur" : ["Campari - 1 oz"],
+                "vermouth" : ["Sweet Vermouth - 1 oz"],
+                "mixers" : null,
+                "garnish" : ["Orange Twist"],
+                "section" : "searchDrinks",
+                "photo" : "negroni",
+                "instructions" : ["Pour Ingredients Into Mixing Glass", "Stir Until Properly Diluted", "Strain Over Fresh Ice", "Garnish With Orange Or Orange Peel"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            {
+                "name" : "Paper Plane",
+                "glass" : ["Nick & Nora Glass"],
+                "rim" : null,
+                "wine" : null,
+                "liquor" : ["Bourbon - .75 oz"],
+                "liqueur" : ["Aperol - .75 oz", "Amaro Nonino Quintessentia - .75 oz"],
+                "vermouth" : null,
+                "mixers" : ["Lemon Juice - .75 oz,"],
+                "garnish" : ["Orange Peel"],
+                "section" : "searchDrinks",
+                "photo" : "paperPlane",
+                "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Into Nick & Nora Glass", "Garnish With Orange Peel"],
+                "batch" : null,
+                "alt. batch" : null
+            },
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "name": "Alexander",
+                "glass": ["Coupe Glass,", "Martini Glass"],
+                "rim": null,
+                "wine": null,
+                "liquor": ["Brandy - 1 oz"],
+                "liqueur": ["Dark Creme de Cacao - 1 oz"],
+                "vermouth": null,
+                "mixers": ["Heavy Cream - 1 oz"],
+                "garnish": ["Freshly Grated Nutmeg"],
+                "section": null,
+                "photo": "alexander",
+                "instructions": [
+                  "Add brandy, dark crème de cacao, and heavy cream to a shaker filled with ice.",
+                  "Shake vigorously until well chilled and frothy.",
+                  "Strain into a chilled coupe or martini glass.",
+                  "Garnish with freshly grated nutmeg on top."
+                ],
+                "batch": null,
+                "alt. batch": null
+            },
+            {
+              "name": "Amaretto Sour",
+              "glass": ["Coupe Glass or,", "Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Amaretto - 1.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 2 oz", "Simple Syrup - 1.5 oz", "Egg White - 1 ea (optional)"],
+              "garnish": ["Lemon Wheel", "Cherry"],
+              "section": null,
+              "photo": "amarettoSour",
+              "instructions": [
+                "Add amaretto, lemon juice, simple syrup, and egg white (if using) to a shaker without ice.",
+                "Dry shake for 10–15 seconds to emulsify the egg white.",
+                "Add ice and shake again until well chilled.",
+                "Strain into an old-fashioned glass filled with ice.",
+                "Garnish with a lemon wheel and a cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Americano",
+              "glass": ["Rocks Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Campari - 1 oz", "Sweet Vermouth - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Club Soda - Splash"],
+              "garnish": ["Orange Slice", "Lemon Twist (optional)"],
+              "section": null,
+              "photo": "americano",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add Campari and sweet vermouth.",
+                "Top with club soda.",
+                "Stir gently to combine.",
+                "Garnish with an orange slice and optional lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Angel Face",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1 oz"],
+              "liqueur": ["Apricot Brandy - 1 oz", "Calvados - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "angelFace",
+              "instructions": [
+                "Add gin, apricot brandy, and apple brandy to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Aviation",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": ["Luxardo Cherry Liqueur - 0.5 oz", "Creme de Violette - 0.25 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz"],
+              "garnish": ["Luxardo Cherry"],
+              "section": null,
+              "photo": "aviation",
+              "instructions": [
+                "Add gin, maraschino liqueur, creme de violette, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with a Luxardo cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Bahama Mama",
+              "glass" : ["Hurricane Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 1 oz,", "Coconut Rum - 5 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Orange Juice - 2 oz,", "Pineapple Juice - 1 oz,", "Lime Juice - .5 oz,", "Grenadine - .5 oz"],
+              "garnish" : ["Pineapple & Cherry"],
+              "section" : null,
+              "photo" : "bahamaMama",
+              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain Over Fresh Ice" ,"Garnish with Pineapple & Cherry"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Bee's Knees",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Orange Juice - 0.75 oz", "Honey Syrup - 0.5 oz"],
+              "garnish": ["Lemon or Orange Twist"],
+              "section": null,
+              "photo": "beesKnees",
+              "instructions": [
+                "Add gin, lemon juice, orange juice and honey syrup to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon or orange twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Bellini",
+              "glass": ["Champagne Flute"],
+              "rim": null,
+              "wine": ["Prosecco - 4 oz"],
+              "liquor": null,
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["White Peach Puree - 2 oz"],
+              "garnish": ["Peach Slice (optional)"],
+              "section": null,
+              "photo": "bellini",
+              "instructions": [
+                "Add peach puree to a chilled champagne flute.",
+                "Slowly top with Prosecco while gently stirring to combine.",
+                "Garnish with a peach slice, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Between the Sheets",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cognac - 1 oz", "Rum - 1 oz"],
+              "liqueur": ["Cointreau - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz"],
+              "garnish": ["Lemon Twist (optional)"],
+              "section": null,
+              "photo": "betweenTheSheets",
+              "instructions": [
+                "Add cognac, rum, orange liqueur, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Black Russian",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Coffee Liqueur - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "blackRussian",
+              "instructions": [
+                "Add vodka and coffee liqueur to an old-fashioned glass filled with ice.",
+                "Stir gently to combine."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Bloody Mary",
+              "glass": ["Highball Glass or", "Pint Glass"],
+              "rim": ["Celery Salt (optional)"],
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Tomato Juice - 4 oz",
+                "Lemon Juice - 0.5 oz",
+                "Worcestershire Sauce - 2 to 3 dashes",
+                "Hot Sauce - 2 to 3 dashes",
+                "Horseradish - 0.25 tsp (optional)",
+                "Salt and Pepper - Pinch"
+              ],
+              "garnish": ["Celery Stalk", "Lemon Wedge", "Pickle", "Olives (optional)"],
+              "section": null,
+              "photo": "bloodyMary",
+              "instructions": [
+                "Optional: Rim the glass with celery salt.",
+                "Add vodka, tomato juice, lemon juice, Worcestershire sauce, hot sauce, horseradish (if using), salt, and pepper to a shaker filled with ice.",
+                "Roll the ingredients by pouring from one shaker to another a few times (or stir gently).",
+                "Strain into the prepared glass filled with fresh ice.",
+                "Garnish with a celery stalk, lemon wedge, and optional pickles or olives."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Boulevardier",
+              "glass": ["Old-Fashioned Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Whiskey - 1.25 oz"],
+              "liqueur": ["Campari - 1 oz", "Sweet Vermouth - 1 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "boulevardier",
+              "instructions": [
+                "Add bourbon (or rye), Campari, and sweet vermouth to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into an old-fashioned glass over a large ice cube or into a chilled coupe glass.",
+                "Garnish with an orange twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Bramble",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": ["Blackberry Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Simple Syrup - 0.5 oz"],
+              "garnish": ["Blackberries", "Lemon Slice"],
+              "section": null,
+              "photo": "bramble",
+              "instructions": [
+                "Add gin, lemon juice, and simple syrup to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Strain into an old-fashioned glass filled with crushed ice.",
+                "Drizzle creme de mure over the top.",
+                "Garnish with blackberries and a lemon slice."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Brandy Crusta",
+              "glass": ["Coupe Glass"],
+              "rim": ["Sugar"],
+              "wine": null,
+              "liquor": ["Brandy - 2 oz"],
+              "liqueur": ["Cointreau - 0.25 oz", "Luxardo Cherry liqueur - .25 oz,"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz", "Simple Syrup - 0.25 oz", "Angostura Bitters - 1 dash"],
+              "garnish": ["Long Lemon Peel (inside glass)"],
+              "section": null,
+              "photo": "brandyCrusta",
+              "instructions": [
+                "Rim a chilled coupe glass with sugar and set aside.",
+                "Add brandy, orange liqueur, maraschino liqueur, lemon juice, simple syrup, and bitters to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Line the inside of the glass with a long lemon peel.",
+                "Strain the cocktail into the prepared glass."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Caipirinha",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cachaca - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime", "Sugar - 2 tsp"],
+              "garnish": ["Lime Wheel or Wedge"],
+              "section": null,
+              "photo": "caipirinha",
+              "instructions": [
+                "Add whole lime cut into wedges and sugar to an old-fashioned glass.",
+                "Muddle well to extract juice and dissolve sugar.",
+                "Fill the glass with ice.",
+                "Pour in cachaca.",
+                "Stir well to mix and chill.",
+                "Garnish with a lime wheel or wedge.",
+                "Note:",
+                "Caipiroska – Instead of Cachaça use Vodka;",
+                "Caipirissima – Instead of Cachaça use Rum.",
+                "Caipirão – Instead of Cachaça use Licor Beirão."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Canchanchara",
+              "glass": ["Old-Fashioned Glass or", "Clay Cup (traditional)"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Aguardiente or", "Cuban Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - .75 oz", "Honey Syrup - .75 oz"],
+              "garnish": ["Lime Wheel (optional)"],
+              "section": null,
+              "photo": "canchanchara",
+              "instructions": [
+                "Add honey syrup and lime juice to a glass or clay cup.",
+                "Stir to combine.",
+                "Add aguardiente or Cuban rum and fill with ice.",
+                "Stir gently to chill.",
+                "Garnish with a lime wheel, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Cardinale",
+              "glass": ["Coupe Glass", "Nick and Nora Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": ["Dry Vermouth - 1 oz"],
+              "mixers": ["Campari - 0.5 oz"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "cardinale",
+              "instructions": [
+                "Add gin, dry vermouth, and Campari to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled coupe or Nick and Nora glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Casino",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Old Tom Gin - 1.5 oz"],
+              "liqueur": ["Luxardo Cherry Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.5 oz", "Orange Bitters - 1 dash"],
+              "garnish": ["Luxardo Cherry", "Lemon Twist (optional)"],
+              "section": null,
+              "photo": "casino",
+              "instructions": [
+                "Add Old Tom gin, maraschino liqueur, lemon juice, and orange bitters to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with a Luxardo cherry and optional lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Champagne Cocktail",
+              "glass": ["Champagne Flute"],
+              "rim": null,
+              "wine": ["Champagne - 3 oz"],
+              "liquor": ["Cognac - .5 oz"],
+              "liqueur": ["Grand Marnier - Few Drops (optional)"],
+              "vermouth": null,
+              "mixers": ["Angostura Bitters - 2 to 3 dashes", "Sugar Cube"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "champagneCocktail",
+              "instructions": [
+                "Place a sugar cube in a chilled champagne flute.",
+                "Saturate the sugar cube with Angostura bitters.",
+                "Slowly top with chilled Champagne.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Chartreuse Swizzle",
+              "glass": ["Tiki Glass", "Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Green Chartreuse - 1.5 oz"],
+              "vermouth": null,
+              "mixers": [
+                "Pineapple Juice - 1 oz",
+                "Lime Juice - 0.75 oz",
+                "Falernum - 0.5 oz"
+              ],
+              "garnish": ["Mint Sprig", "Grated Nutmeg (optional)"],
+              "section": null,
+              "photo": "chartreuseSwizzle",
+              "instructions": [
+                "Add all ingredients to a glass filled with crushed ice.",
+                "Swizzle (or stir vigorously) until the glass is frosty.",
+                "Top with more crushed ice if needed.",
+                "Garnish with a mint sprig and optionally a dusting of grated nutmeg."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Clover Club",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": [
+                "Lemon Juice - 0.75 oz",
+                "Raspberry Syrup - 0.5 oz",
+                "Egg White - 0.5 oz"
+              ],
+              "garnish": ["Raspberries (optional)"],
+              "section": null,
+              "photo": "cloverClub",
+              "instructions": [
+                "Add gin, lemon juice, raspberry syrup, and egg white to a shaker without ice.",
+                "Dry shake for 10–15 seconds to emulsify the egg white.",
+                "Add ice and shake again until well chilled.",
+                "Double strain into a chilled coupe glass.",
+                "Garnish with raspberries, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Corpse Reviver #2",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 0.75 oz"],
+              "liqueur": ["Cointreau - 0.75 oz", "Lillet Blanc - 0.75 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 0.75 oz", "Absinthe - rinse"],
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "corpseReviver2",
+              "instructions": [
+                "Rinse a chilled coupe glass with absinthe and discard the excess.",
+                "Add gin, Cointreau, Lillet Blanc, and lemon juice to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into the prepared coupe glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Cuba Libre",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Coke - to top", "Lime Juice - 0.5 oz"],
+              "garnish": ["Lime Wedge"],
+              "section": null,
+              "photo": "cubaLibre",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add rum and lime juice.",
+                "Top with cola and stir gently.",
+                "Garnish with a lime wedge."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Daiquiri",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 1 oz", "Simple Syrup - 0.75 oz"],
+              "garnish": ["Lime Wheel"],
+              "section": null,
+              "photo": "daiquiri",
+              "instructions": [
+                "Add rum, lime juice, and simple syrup to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Daisy",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Brandy - 2 oz"],
+              "liqueur" : ["Orange Liqueur - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .75 oz", "Grenadine - .25 oz"],
+              "garnish" : ["Lemon Twist"],
+              "section" : null,
+              "photo" : "daisy",
+              "instructions" : [
+                "Add all ingredients to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Daisy (Original)",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Brandy - 1.5 oz"],
+              "liqueur" : ["Orange Curacao - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .75 oz", "Simple Syrup - .25 oz", "Soda Water - Splash"],
+              "garnish" : ["Lemon Wheel", "Mint Sprig (Optional)"],
+              "section" : null,
+              "photo" : "daisyOriginal",
+              "instructions" : [
+                "Add brandy, orange curaçao, lemon juice, and simple syrup to a shaker with ice.",
+                "Shake until well chilled and strain into a rocks glass over fresh ice.",
+                "Top with a splash of soda water.",
+                "Garnish with a lemon wheel and optional mint sprig."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Dark 'n' Stormy",
+              "glass" : ["Highball or Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Ginger Beer - 4 oz", "Lime Juice - .5 oz"],
+              "garnish" : ["Lime Wedge"],
+              "section" : null,
+              "photo" : "darkNStormy",
+              "instructions" : [
+                "Fill a highball glass with ice.",
+                "Add ginger beer and lime juice.",
+                "Float dark rum on top.",
+                "Garnish with a lime wedge."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Don's Special Daiquiri",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Jamaican Gold Rum - 1 oz", "Rum - .5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - .5 oz", "Honey Syrup - .5 oz", "Passion Fruit Syrup - .5 oz"],
+              "garnish": ["Passion Fruit or Lime Wheel"],
+              "section": null,
+              "photo": "donsSpecialDaiquiri",
+              "instructions": [
+                "Add ingredients to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with passion fruit or lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Espresso Martini",
+              "glass": ["Coupe Glass", "Martini Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Coffee Liqueur - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Espresso - 1 oz", "Simple Syrup - 0.25 oz"],
+              "garnish": ["3 Coffee Beans"],
+              "section": null,
+              "photo": "espressoMartini",
+              "instructions": [
+                "Add vodka, coffee liqueur, espresso, and simple syrup to a shaker with ice.",
+                "Shake vigorously until well chilled and a foam layer forms.",
+                "Strain into a chilled coupe or martini glass.",
+                "Garnish with 3 coffee beans."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Fernandito",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Fernet-Branca - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Coke - to top"],
+              "garnish": ["Lime Wedge (optional)"],
+              "section": null,
+              "photo": "fernandito",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Pour Fernet-Branca over the ice.",
+                "Top with cola.",
+                "Stir gently to combine.",
+                "Garnish with a lime wedge if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "French 75",
+              "glass" : ["Champagne Flute"],
+              "rim" : null,
+              "wine" : ["Champagne - 3 oz"],
+              "liquor" : ["Gin - 1 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - .5 oz", "Simple Syrup - .5 oz"],
+              "garnish" : ["Lemon Twist (optional)"],
+              "section" : null,
+              "photo" : "french75",
+              "instructions" : ["Add the gin, lemon juice and simple syrup to a shaker with ice and shake until well-chilled", "Strain into a Champagne flute" ,"Top with the Champagne or sparkling wine of choice", "Garnish with a lemon twist"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "French Connection",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Cognac - 1.5 oz"],
+              "liqueur": ["Amaretto - 1.5 oz"],
+              "vermouth": null,
+              "mixers": null,
+              "garnish": null,
+              "section": null,
+              "photo": "frenchConnection",
+              "instructions": [
+                "Fill an old-fashioned glass with ice.",
+                "Add cognac and amaretto.",
+                "Stir gently to combine."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Garibaldi",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Campari - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Orange Juice - 4 oz"],
+              "garnish": ["Orange Wedge"],
+              "section": null,
+              "photo": "garibaldi",
+              "instructions": [
+                "Fill a highball glass with ice.",
+                "Add Campari.",
+                "Top with freshly squeezed orange juice (ideally whipped or aerated for a fluffy texture).",
+                "Stir gently to combine.",
+                "Garnish with an orange wedge."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Gimlet",
+              "glass": ["Coupe Glass or", "Martini Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 1.5 oz", "Simple Syrup - 1 oz"],
+              "garnish": ["Lime Wheel"],
+              "section": null,
+              "photo": "gimlet",
+              "instructions": [
+                "Add gin, lime juice, and simple syrup to a shaker with ice.",
+                "Shake until well chilled.",
+                "Double strain into a chilled coupe or martini glass.",
+                "Garnish with a lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Gin Basil Smash",
+              "glass": ["Rocks Glass", "Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Basil - Muddled", "Lemon Juice - 1 oz", "Simple Syrup - 0.75 oz"],
+              "garnish": ["Basil Leaf"],
+              "section": null,
+              "photo": "ginBasilSmash",
+              "instructions": [
+                "In a shaker, muddle a generous handful of fresh basil leaves with lemon juice and simple syrup.",
+                "Add gin and fill the shaker with ice.",
+                "Shake vigorously until well chilled.",
+                "Double strain into a rocks glass filled with ice.",
+                "Garnish with a fresh basil leaf."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Gin Fizz",
+              "glass": ["Highball Glass or", "Collins Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 1 oz", "Simple Syrup - 0.75 oz", "Club Soda - 2 oz"],
+              "garnish": ["Lemon Wheel (optional)"],
+              "section": null,
+              "photo": "ginFizz",
+              "instructions": [
+                "Add gin, lemon juice, and simple syrup to a shaker filled with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into a highball or Collins glass filled with ice.",
+                "Top with club soda.",
+                "Garnish with a lemon wheel if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Grasshopper",
+              "glass": ["Coupe Glass or", "Cocktail Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": null,
+              "liqueur": ["Creme de Menthe (Green) - 1 oz", "Creme de Cacao (White) - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Heavy Cream - 1 oz"],
+              "garnish": ["Grated Chocolate or Mint Leaf (optional)"],
+              "section": null,
+              "photo": "grasshopper",
+              "instructions": [
+                "Add creme de menthe, creme de cacao, and cream to a shaker filled with ice.",
+                "Shake vigorously until well chilled and creamy.",
+                "Strain into a chilled coupette or cocktail glass.",
+                "Garnish with grated chocolate or a mint leaf if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Hanky Panky",
+              "glass": ["Cocktail Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Gin - 1.5 oz"],
+              "liqueur": ["Fernet-Branca - 2 dashes"],
+              "vermouth": ["Sweet Vermouth - 1.5 oz"],
+              "mixers": null,
+              "garnish": ["Orange Twist"],
+              "section": null,
+              "photo": "hankyPanky",
+              "instructions": [
+                "Add gin, sweet vermouth, and Fernet-Branca to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled cocktail or coupette glass.",
+                "Express the oils of an orange twist over the drink and use as garnish."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Hemingway Special",
+              "glass": ["Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": ["Luxardo Cherry liqueur - .25 oz,"],
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.75 oz", "Grapefruit Juice - 0.5 oz"],
+              "garnish": ["Lime Wheel or Cherry (optional)"],
+              "section": null,
+              "photo": "hemingwaySpecial",
+              "instructions": [
+                "Add rum, maraschino liqueur, lime juice, and grapefruit juice to a shaker with ice.",
+                "Shake until well chilled.",
+                "Strain into a chilled coupe glass.",
+                "Garnish with a lime wheel or cherry if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Horse's Neck",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Brandy - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Ginger Ale - to top", "Angostura Bitters - 2 dashes (optional)"],
+              "garnish": ["Long Lemon Peel Spiral"],
+              "section": null,
+              "photo": "horsesNeck",
+              "instructions": [
+                "Place a long spiral of lemon peel in a highball glass, letting one end hang over the rim.",
+                "Fill the glass with ice.",
+                "Add brandy (and bitters if using).",
+                "Top with ginger ale.",
+                "Stir gently to combine."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+
+            {
+              "name": "Irish Coffee",
+              "glass": ["Irish Coffee Mug"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Irish Whiskey - 1.5 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Hot Coffee - 4 oz", "Demerara Sugar - 1 tsp", "Lightly Whipped Cream - 1 oz (float)"],
+              "garnish": null,
+              "section": null,
+              "photo": "irishCoffee",
+              "instructions": [
+                "Warm an Irish coffee mug with hot water, then discard the water.",
+                "Add demerara sugar and Irish whiskey to the mug.",
+                "Fill with hot coffee and stir until the sugar dissolves.",
+                "Float lightly whipped cream on top by pouring it gently over the back of a spoon."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Jungle Bird",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Blackstrap Rum - 1.5 oz"],
+              "liqueur" : ["Campari - .75 oz"],
+              "vermouth" : null,
+              "mixers" : ["Pineapple Juice - 1.5 oz,", "Lime Juice - .5 oz,", "Demerara Syrup - .5 oz"],
+              "garnish" : ["Pineapple Wedge"],
+              "section" : null,
+              "photo" : "jungleBird",
+              "instructions" : ["Add all ingredients into a shaker with ice and shake until well-chilled.", "Strain over fresh ice in a rocks glass" , "Garnish with a pineapple wedge"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Lemon Drop Martini",
+              "glass": ["Martini Glass", "Coupe Glass"],
+              "rim": ["Sugar"],
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["Triple Sec - 0.5 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - 1.5 oz", "Simple Syrup - 1 oz"],
+              "garnish": ["Lemon Twist"],
+              "section": null,
+              "photo": "lemonDropMartini",
+              "instructions": [
+                "Rim a chilled martini glass with sugar and set aside.",
+                "Add vodka, triple sec, lemon juice, and simple syrup to a shaker with ice.",
+                "Shake vigorously until well chilled.",
+                "Strain into the prepared glass.",
+                "Garnish with a lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Long Island Iced Tea",
+              "glass" : ["Pint Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Vodka - .5 oz", "Rum - .5 oz", "Gin - .5 oz", "Blanco Tequila - .5 oz"],
+              "liqueur" : ["Triple Sec - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lemon Juice - 1.5 oz", "Simple Syrup - 1 oz", "Coke (Splash)"],
+              "garnish" : ["Lemon"],
+              "section" : null,
+              "photo" : "longIslandIcedTea",
+              "instructions" : ["Add all ingredients into mixing tin with ice and shake.", "Strain Over Fresh Ice.", "Garnish with a lemon."],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Lychee Martini",
+              "glass": ["Martini Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka - 2 oz"],
+              "liqueur": ["St. Germain - 1 oz"],
+              "vermouth": null,
+              "mixers": ["Lychee Syrup - 1 oz"],
+              "garnish": ["Lychee Fruit", "Lemon Twist (optional)"],
+              "section": null,
+              "photo": "lycheeMartini",
+              "instructions": [
+                "Add vodka, St-Germain, and lychee syrup to a shaker filled with ice.",
+                "Shake well until chilled.",
+                "Strain into a chilled martini glass.",
+                "Garnish with a lychee fruit and optional lemon twist."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Margarita",
+              "glass" : ["Margarita Glass"],
+              "rim" : ["Salt"],
+              "wine" : null,
+              "liquor" : ["Blanco Tequila - 2 oz"],
+              "liqueur" : ["Cointreau - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Agave - .75 oz", "Lime Juice - 1.5 oz"],
+              "garnish" : ["Lime"],
+              "section" : null,
+              "photo" : "cadillac",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain Over Fresh Ice", "Garnish With Lime"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Martini",
+              "glass": ["Martini Glass or", "Coupe Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Vodka or Gin - 3 oz"],
+              "liqueur": null,
+              "vermouth": ["Dry Vermouth - 0.5 oz"],
+              "mixers": null,
+              "garnish": ["Lemon Twist or", "Olive"],
+              "section": null,
+              "photo": "martini",
+              "instructions": [
+                "Add gin and dry vermouth to a mixing glass filled with ice.",
+                "Stir until well chilled.",
+                "Strain into a chilled martini or coupe glass.",
+                "Garnish with a lemon twist or an olive."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Mint Julep",
+              "glass" : ["Metal Julep Cup"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Bourbon - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Mint Leaves - 8 (Muddled)", "Simple Syrup - .25 oz"],
+              "garnish" : ["Mint Sprig", "Bitters (Optional: Few Drops)"],
+              "section" : null,
+              "photo" : "mintJulep",
+              "instructions" : ["Gently Muddle Mint And Simple Syrup In Glass", "Add Ice And Bourbon" , "Garnish With Mint Sprig And (Optional: Bitters)"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Mojito",
+              "glass": ["Highball Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Rum - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.75 oz", "Simple Syrup - 0.5 oz", "Club Soda - to top"],
+              "garnish": ["Mint Sprig", "Lime Wheel"],
+              "section": null,
+              "photo": "mojito",
+              "instructions": [
+                "In a highball glass, muddle mint leaves with lime juice and simple syrup.",
+                "Fill the glass with ice.",
+                "Add rum and top with club soda.",
+                "Stir gently to combine.",
+                "Garnish with a mint sprig and lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name": "Old Fashioned",
+              "glass": ["Old-Fashioned Glass"],
+              "rim": null,
+              "wine": null,
+              "liquor": ["Whiskey - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Simple Syrup - 0.25 oz", "Angostura Bitters - 2 dashes"],
+              "garnish": ["Orange Twist", "Luxardo Cherry (optional)"],
+              "section": null,
+              "photo": "oldFashioned",
+              "instructions": [
+                "Add simple syrup and bitters to an mixing glass.",
+                "Stir gently until well chilled and diluted.",
+                "Strain into a rocks glass over a large cube",
+                "Garnish with an orange twist and optional cherry."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Painkiller",
+              "glass" : ["Tiki Mug or", "Hurricane Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Dark Rum - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Pineapple Juice - 4 oz", "Orange Juice - 1 oz", "Cream of Coconut - 1 oz"],
+              "garnish" : ["Nutmeg (Freshly Grated)", "Pineapple Wedge", "Orange Wheel"],
+              "section" : null,
+              "photo" : "painkiller",
+              "instructions" : [
+                "Add all ingredients to a shaker with ice and shake well.",
+                "Strain into a tiki mug or hurricane glass over crushed ice.",
+                "Garnish with freshly grated nutmeg, pineapple wedge, and orange wheel."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Paloma",
+              "glass": ["Rocks Glass"],
+              "rim": ["Salt (optional)"],
+              "wine": null,
+              "liquor": ["Blanco Tequila - 2 oz"],
+              "liqueur": null,
+              "vermouth": null,
+              "mixers": ["Lime Juice - 0.5 oz", "Grapefruit Soda - to top"],
+              "garnish": ["Grapefruit Wedge", "Lime Wheel (optional)"],
+              "section": null,
+              "photo": "paloma",
+              "instructions": [
+                "Optional: Rim the glass with salt.",
+                "Fill a highball glass with ice.",
+                "Add tequila and lime juice.",
+                "Top with grapefruit soda.",
+                "Stir gently to combine.",
+                "Garnish with a grapefruit wedge and optional lime wheel."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Pisco Sour",
+              "glass" : ["Nick & Nora Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Pisco - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Lime Juice - 1 oz", "Simple Syrup - .5 oz", "Egg White - 1 ea"],
+              "garnish" : ["Angostura Bitters (on foam)"],
+              "section" : null,
+              "photo" : "piscoSour",
+              "instructions" : [
+                "Add pisco, lime juice, simple syrup and egg white into a shaker and dry-shake (without ice) vigorously.",
+                "Add ice and shake again until well chilled.",
+                "Strain into a chilled Nick & Nora glass. (Alternatively, you can strain it into a rocks glass over fresh ice.)",
+                "Garnish with 3 to 5 drops of Angostura bitters. Using a straw, toothpick or similar implement, swirl the bitters into a simple design, if desired."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Sazerac",
+              "glass" : ["Rocks Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Rye Whiskey - 2 oz"],
+              "liqueur" : null,
+              "vermouth" : null,
+              "mixers" : ["Simple Syrup - .25 oz", "Peychaud's Bitters - 3 dashes", "Absinthe (Rinse)"],
+              "garnish" : ["Lemon Peel"],
+              "section" : null,
+              "photo" : "sazerac",
+              "instructions" : [
+                "Rinse a chilled rocks glass with absinthe and discard excess.",
+                "In a separate mixing glass, combine rye whiskey, simple syrup, and Peychaud’s bitters with ice.",
+                "Stir until well chilled and strain into the prepared glass (no ice).",
+                "Express lemon peel over the drink and discard or drop in."
+              ],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name": "Sidecar",
+              "glass": ["Coupe Glass"],
+              "rim": ["Sugar (optional)"],
+              "wine": null,
+              "liquor": ["Cognac - 1.5 oz"],
+              "liqueur": ["Cointreau - .75 oz"],
+              "vermouth": null,
+              "mixers": ["Lemon Juice - .75 oz"],
+              "garnish": ["Orange Twist (optional)"],
+              "section": null,
+              "photo": "sidecar",
+              "instructions": [
+                "Optional: Rim the coupe glass with sugar.",
+                "Add cognac, orange liqueur, and lemon juice to a shaker filled with ice.",
+                "Shake until well chilled.",
+                "Strain into the prepared coupe glass.",
+                "Garnish with an orange twist, if desired."
+              ],
+              "batch": null,
+              "alt. batch": null
+            },
+            {
+              "name" : "Siesta",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Blanco Tequila - 2 oz"],
+              "liqueur" : ["Campari - .5 oz"],
+              "vermouth" : null,
+              "mixers" : ["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave - .5 oz"],
+              "garnish" : ["Lime, Lemon or Grapefruit Wheel"],
+              "section" : null,
+              "photo" : "siesta",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Double Strain Into Coupe Glass", "Garnish With Lime, Lemon or Grapefruit Wheel"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+              "name" : "Spicy Fifty",
+              "glass" : ["Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Vodka - 2 oz"],
+              "liqueur" : ["St. Germain - .75 oz"],
+              "vermouth" : null,
+              "mixers" : ["Chili Tincture - 2 drops," ,"Lime Juice - .75 oz,", "Honey Syrup - .75 oz"],
+              "garnish" : ["Dehydrated Chile De Arbol"],
+              "section" : null,
+              "photo" : "spicyFifty",
+              "instructions" : ["Add ingredients to shaker,", "Shake with ice,", "Double strain into chilled cocktail glass,", "Garnish with red chili pepper"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+            "name" : "Tom Collins",
+            "glass" : ["Collins Glass"],
+            "rim" : null,
+            "wine" : null,
+            "liquor" : ["Gin - 2 oz"],
+            "liqueur" : null,
+            "vermouth" : null,
+            "mixers" : ["Lemon Juice - 1 oz", "Simple Syrup - .75 oz", "Club Soda - Top"],
+            "garnish" : ["Lemon Wheel", "Cherry"],
+            "section" : null,
+            "photo" : "tomCollins",
+            "instructions" : [
+              "Add gin, lemon juice, and simple syrup to a shaking tin with ice.",
+              "Shake well and strain into a Collins glass over fresh ice.",
+              "Top with club soda.",
+              "Garnish with a lemon wheel and cherry."
+            ],
+            "batch" : null,
+            "alt. batch" : null
+            },
+            {
+              "name" : "Vesper",
+              "glass" : ["Martini or Coupe Glass"],
+              "rim" : null,
+              "wine" : null,
+              "liquor" : ["Gin - 1.5 oz,", "Vodka - .5 oz"],
+              "liqueur" : null,
+              "vermouth" : ["Lillet Blanc - .25 oz"],
+              "mixers" : null,
+              "garnish" : ["Lemon Twist"],
+              "section" : null,
+              "photo" : "vesper",
+              "instructions" : ["Pour Into Shaker", "Add Ice & Shake Vigorously" ,"Strain into a chilled martini or coupe glass", "Garnish With Lemon Twist"],
+              "batch" : null,
+              "alt. batch" : null
+            },
+            {
+            "name": "White Russian",
+            "glass": ["Old-Fashioned Glass"],
+            "rim": null,
+            "wine": null,
+            "liquor": ["Vodka - 2 oz"],
+            "liqueur": ["Coffee Liqueur - 1 oz"],
+            "vermouth": null,
+            "mixers": ["Heavy Cream - 1 oz"],
+            "garnish": null,
+            "section": null,
+            "photo": "whiteRussian",
+            "instructions": [
+              "Add vodka and coffee liqueur to an old-fashioned glass filled with ice.",
+              "Float heavy cream on top by pouring over the back of a spoon.",
+              "Stir gently before drinking, if desired."
+            ],
+            "batch": null,
+            "alt. batch": null
+          },
+          {
+            "name": "White Sangria",
+            "glass": ["Wine Glass"],
+            "rim": null,
+            "wine": ["White Wine - 5 oz"],
+            "liquor": ["Brandy - 0.25 oz (optional)"],
+            "liqueur": ["Orange Liqueur - 0.5 oz"],
+            "vermouth": null,
+            "mixers": ["Orange Juice - 1 oz", "Club Soda - 1–2 oz (to top)", "Sprite (optional)"],
+            "garnish": ["Orange Slice", "Apple Slice", "Lemon Slice", "Berry", "Mint Sprig (optional)"],
+            "section": null,
+            "photo": "whiteSangria",
+            "instructions": [
+              "In a wine glass filled with ice, combine white wine, orange juice, orange liqueur, and optional brandy.",
+              "Add a few slices of fruit (such as orange, lemon, and apple) and a berry or two.",
+              "Top with a splash of club soda or lemon-lime soda.",
+              "Stir gently to mix.",
+              "Garnish with a mint sprig, if desired."
+            ],
+            "batch": null,
+            "alt. batch": null
+          }
+
+
+          
+            
+            
+
+
+
+        ],
+
+
+
+
+
+
+
+
+
+
+
+
+        "inventory": 
+        [
+            {
+                "category": "Rim Garnishes",
+                "items": [
+                    {
+                      "name": "Celery Salt",
+                      "description": [
+                        "Non-alcoholic",
+                        "A blend of ground celery seeds and salt",
+                        "Celery salt is a savory seasoning often used in cocktails like the Bloody Mary. It imparts a subtle herbal bitterness and umami saltiness, enhancing the drink’s complexity and balance."
+                      ],
+                      "alternatives": [
+                        "Celery Seed + Salt (DIY blend)",
+                        "Old Bay Seasoning",
+                        "Seasoned Salt"
+                      ]
+                    },
+                    {
+                      "name": "Guest Choice",
+                      "description": [
+                        "A customizable rim option chosen by the guest based on their taste preferences.",
+                        "Common choices include salt, sugar, or Tajín—each enhancing cocktails in different ways.",
+                        "Salt highlights savory and citrus flavors, sugar balances tart ingredients, and Tajín adds a spicy, tangy kick."
+                      ],
+                      "alternatives": [
+                        "Salt",
+                        "Sugar",
+                        "Tajín",
+                        "Cinnamon Sugar",
+                        "Spiced Salt"
+                      ]
+                    },
+                    {
+                        "name": "Half Salt",
+                        "description": [
+                          "A common mineral used to enhance flavor and balance sweetness or acidity in cocktails.",
+                          "Often used to rim glasses, especially in drinks like Margaritas or Palomas.",
+                          "Can be added as a pinch in the drink itself to deepen complexity and round out flavors."
+                        ],
+                        "alternatives": [
+                          "Sea Salt",
+                          "Kosher Salt",
+                          "Flavored Salts (e.g., chili-lime salt)"
+                        ]
+                    },
+                  {
+                        "name": "Salt",
+                        "description": [
+                          "A common mineral used to enhance flavor and balance sweetness or acidity in cocktails.",
+                          "Often used to rim glasses, especially in drinks like Margaritas or Palomas.",
+                          "Can be added as a pinch in the drink itself to deepen complexity and round out flavors."
+                        ],
+                        "alternatives": [
+                          "Sea Salt",
+                          "Kosher Salt",
+                          "Flavored Salts (e.g., chili-lime salt)"
+                        ]
+                    }
+                    ,
+                    {
+                      "name": "Salt and Pepper",
+                      "description": [
+                        "Non-alcoholic seasoning ingredients",
+                        "Salt enhances flavor and is often used to rim glasses (e.g., Margaritas), while pepper adds spice and aromatic complexity",
+                        "Both are used in savory cocktails like Bloody Marys or to provide balance in creative mixology"
+                      ],
+                      "alternatives": [
+                        "Celery Salt (for added herbal note)",
+                        "Tajin (for spice and citrus)",
+                        "Smoked Salt or Ground Chili for flavor variation"
+                      ]
+                    }
+                    ,
+                    {
+                        "name": "Sugar",
+                        "description": [
+                          "A fundamental sweetener used to balance acidity and bitterness in cocktails.",
+                          "Typically used in granulated form, but also appears in cubes for classic drinks like the Old Fashioned.",
+                          "Essential for making simple syrup, a staple in many cocktails for smooth sweetness integration."
+                        ],
+                        "alternatives": [
+                          "Simple Syrup",
+                          "Honey",
+                          "Agave Syrup",
+                          "Maple Syrup",
+                          "Demerara Sugar"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Tajin",
+                        "description": [
+                          "A popular Mexican seasoning made from a blend of chili peppers, lime, and salt.",
+                          "Adds a tangy, spicy kick and vibrant color to cocktail rims and garnishes.",
+                          "Commonly used on the rim of margaritas and micheladas to enhance flavor and presentation."
+                        ],
+                        "alternatives": [
+                          "Chili-Lime Salt",
+                          "Chili Powder + Salt + Lime Zest",
+                          "Smoked Paprika + Sea Salt",
+                          "Tamarind Salt",
+                          "Sumac + Sea Salt"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "category": "Batch Components",
+                "items": [
+                { "name": "Batch", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "category": "Sodas & Carbonated",
+                "items": [
+                {
+                  "name": "Club Soda",
+                  "description": [
+                    "Non-alcoholic",
+                    "Produced by various brands (e.g., Schweppes, Canada Dry, Q Mixers)",
+                    "Club soda is a carbonated water infused with minerals like sodium bicarbonate and potassium sulfate. It's used in cocktails to add fizz and volume without altering the drink’s flavor profile significantly."
+                  ],
+                  "alternatives": [
+                    "Soda Water",
+                    "Sparkling Mineral Water",
+                    "Seltzer Water",
+                    "Tonic Water (note: has quinine and a bitter taste)"
+                  ]
+                },
+                {
+                  "name": "Coke",
+                  "description": [
+                    "Non-alcoholic",
+                    "Invented in the United States in the late 19th century",
+                    "Coca-Cola is a sweet, carbonated soft drink with a distinct blend of caramel, vanilla, and spice flavors. It’s often used as a mixer in cocktails like the Rum & Coke or Whiskey & Coke."
+                  ],
+                  "alternatives": [
+                    "Pepsi",
+                    "Mexican Coke",
+                    "Cola Syrup + Soda Water"
+                  ]
+                },
+                {
+                  "name": "Ginger Ale",
+                  "description": [
+                    "A sweetened, carbonated soft drink flavored with ginger.",
+                    "Commonly used as a mixer in highballs and light cocktails such as a Whiskey Ginger."
+                  ],
+                  "alternatives": [
+                    "Ginger Beer",
+                    "Club Soda with Ginger Syrup",
+                    "Lemon-Lime Soda"
+                  ]
+                },
+                {
+                  "name": "Ginger Beer",
+                  "description": [
+                    "Non-alcoholic (typically), though some versions may contain low alcohol content",
+                    "Made from ginger root, sugar, water, and often fermented for natural carbonation",
+                    "Ginger Beer is a bold, spicy-sweet carbonated mixer known for its strong ginger flavor and is essential in cocktails like the Moscow Mule and Dark 'n' Stormy."
+                  ],
+                  "alternatives": [
+                    "Ginger Ale",
+                    "Spicy Ginger Syrup with Club Soda",
+                    "Homemade Ginger Beer"
+                  ]
+                },
+                {
+                  "name": "Grapefruit Soda",
+                  "description": [
+                    "Carbonated soft drink flavored with grapefruit juice or extract",
+                    "Produced by various brands worldwide",
+                    "Grapefruit soda offers a balance of sweet and tart flavors, making it a refreshing mixer in cocktails like the Paloma or Greyhound. It ranges from dry and crisp to sweet and citrusy depending on the brand."
+                  ],
+                  "alternatives": [
+                    "Q Grapefruit Soda",
+                    "Fever-Tree Sparkling Pink Grapefruit",
+                    "Jarritos Grapefruit Soda",
+                    "Fresh Grapefruit Juice with Soda Water"
+                  ]
+                },
+                {
+                  "name": "Soda Water",
+                  "description": [
+                    "Non-alcoholic",
+                    "Commonly produced by brands like Schweppes, Canada Dry, and Q Mixers",
+                    "Soda water is simply carbonated water without any added minerals or flavors. It is often used as a neutral mixer in cocktails to provide effervescence and lighten the drink’s texture."
+                  ],
+                  "alternatives": [
+                    "Club Soda",
+                    "Seltzer Water",
+                    "Sparkling Mineral Water",
+                    "Tonic Water (note: adds bitter flavor due to quinine)"
+                  ]
+                },
+                {
+                  "name": "Sprite",
+                  "description": [
+                    "Non-alcoholic",
+                    "Produced by The Coca-Cola Company",
+                    "Sprite is a clear, lemon-lime flavored soda known for its crisp, refreshing taste. It’s often used in cocktails as a light mixer to add sweetness and carbonation without overpowering other flavors."
+                  ],
+                  "alternatives": [
+                    "7UP",
+                    "Sierra Mist",
+                    "Lemon-Lime Club Soda",
+                    "Lemonade with Soda Water"
+                  ]
+                }
+
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "category": "Bitters",
+                "items": [
+                {
+                    "name": "Angostura Bitters",
+                    "description": [
+                        "44.7% ABV",
+                        "Produced in Trinidad and Tobago",
+                        "Angostura Bitters is a highly concentrated herbal alcoholic preparation, made from a proprietary blend of herbs and spices. It is widely used in classic cocktails for its deep, aromatic flavor with notes of clove, cinnamon, and baking spices."
+                    ],
+                    "alternatives": [
+                        "Peychaud’s Bitters",
+                        "Fee Brothers Old Fashion Aromatic Bitters",
+                        "Regans’ Orange Bitters No. 6",
+                        "Bitter Truth Aromatic Bitters"
+                    ]
+                    }
+                    
+                    ,
+                    {
+                    "name": "Lemon Bitters",
+                    "description": [
+                        "Typically around 44% ABV",
+                        "Produced by various artisanal and commercial bitters makers worldwide",
+                        "Lemon bitters are a concentrated flavoring made by infusing alcohol with lemon peel, herbs, and spices. They add bright citrus complexity and subtle bitterness to cocktails, enhancing both aroma and flavor without overpowering the drink."
+                    ],
+                    "alternatives": [
+                        "Orange Bitters",
+                        "Citrus Bitters",
+                        "Peychaud’s Bitters with a lemon twist"
+                    ]
+                    }
+                    ,
+                    {
+                    "name": "Orange Bitters",
+                    "description": [
+                        "Typically around 40–45% ABV",
+                        "Produced by several brands including Regans’, Angostura, and Fee Brothers",
+                        "Orange bitters are a cocktail seasoning made by infusing alcohol with orange peel, spices, and botanicals. They provide a zesty, aromatic citrus flavor with a dry, bitter edge—commonly used in classics like the Martini or Old Fashioned to add depth and balance."
+                    ],
+                    "alternatives": [
+                        "Lemon Bitters",
+                        "Citrus Bitters",
+                        "Angostura Orange Bitters"
+                    ]
+                    },
+                    {
+                    "name": "Peychaud's Bitters",
+                    "description": [
+                      "35% ABV",
+                      "Produced in Louisiana, USA",
+                      "Peychaud's Bitters is a gentian-based cocktail bitter with a bright red hue and a distinctive flavor marked by anise, cherry, and light floral notes. It is a key ingredient in the classic Sazerac cocktail."
+                    ],
+                    "alternatives": [
+                      "Angostura Bitters",
+                      "Fee Brothers Aromatic Bitters",
+                      "Regans' Orange Bitters No. 6 (for a citrus twist)"
+                    ]
+                  }
+
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "category": "Spirits",
+                "items": [
+                {
+                    "name": "Bourbon",
+                    "description": [
+                        "Typically 40–50% ABV (alcohol by volume).",
+                        "Produced primarily in Kentucky, USA, but can be made anywhere in the U.S.",
+                        "A type of American whiskey made from at least 51% corn and aged in new charred oak barrels; known for its rich, sweet, and oaky flavor with notes of vanilla and caramel."
+                    ],
+                    "alternatives": [
+                        "Rye Whiskey",
+                        "Tennessee Whiskey",
+                        "Corn Whiskey"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Brandy",
+                    "description": [
+                      "Typically 35-60% ABV",
+                      "Distilled from fermented fruit juice, most commonly grapes",
+                      "Brandy is a spirit produced by distilling wine or fermented fruit juice. It is aged in wooden casks, giving it a rich, smooth flavor with notes of oak, caramel, and fruit. Commonly enjoyed neat or used in cocktails like the Sidecar or Brandy Alexander."
+                    ],
+                    "alternatives": [
+                      "Cognac",
+                      "Armagnac",
+                      "Calvados"
+                    ]
+                    } 
+                ,
+                
+                {
+                    "name": "Casamigos Reposado",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Jalisco, Mexico",
+                        "Casamigos Reposado is a premium tequila aged for 7 months in American oak barrels, offering smooth, rich flavors with notes of caramel, cocoa, and soft oak, balanced by subtle hints of agave and spice."
+                    ],
+                    "alternatives": [
+                        "Espolòn Reposado",
+                        "Don Julio Reposado",
+                        "El Tesoro Reposado",
+                        "Cazadores Reposado"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Coconut Rum",
+                    "description": [
+                        "A sweet, tropical-flavored rum typically infused with natural coconut extracts.",
+                        "Often made with light rum as a base, offering a smooth and mildly warming finish.",
+                        "Popular in tropical and tiki cocktails, adding richness and a distinct coconut aroma."
+                    ],
+                    "alternatives": [
+                        "Malibu Original",
+                        "Parrot Bay Coconut Rum",
+                        "Kōloa Coconut Rum"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Cognac",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced in the Cognac region of France",
+                      "Cognac is a type of brandy made from white grapes, distilled twice in copper pot stills, and aged in French oak barrels. It is known for its complex flavor profile that can include notes of dried fruit, vanilla, spice, and oak."
+                    ],
+                    "alternatives": [
+                      "Armagnac",
+                      "American Brandy",
+                      "Spanish Brandy de Jerez"
+                    ]
+                  }
+
+                    ,
+                {
+                    "name": "Corazon Blanco",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Jalisco, Mexico",
+                        "Corazón Blanco is an unaged tequila made from 100% blue Weber agave. It features bright, clean agave flavors with hints of citrus, pepper, and a touch of vegetal earthiness. Crisp and smooth, it's ideal for sipping or mixing in cocktails like Margaritas or Palomas."
+                    ],
+                    "alternatives": [
+                        "Espolòn Blanco",
+                        "El Tesoro Blanco",
+                        "Cazadores Blanco"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Dark Rum",
+                    "description": [
+                        "Typically ranges from 40–50% ABV",
+                        "Produced in various Caribbean nations, including Jamaica, Barbados, and Guyana",
+                        "Dark Rum is aged longer than white or gold rums, often in charred oak barrels, which imparts deep, rich flavors and a dark amber to brown color. Expect notes of molasses, caramel, vanilla, spice, and sometimes smoke. Commonly used in classic cocktails like the Dark 'n Stormy or Mai Tai."
+                    ],
+                    "alternatives": [
+                        "Gosling's Black Seal",
+                        "Myers's Original Dark",
+                        "Plantation Original Dark"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Dos Hombres Mezcal",
+                    "description": [
+                        "42% ABV",
+                        "Produced in San Luis del Río, Oaxaca, Mexico",
+                        "Dos Hombres is an artisanal mezcal crafted from hand-selected Espadín agave. Created by actors Bryan Cranston and Aaron Paul, it offers a smooth, balanced profile with subtle smoke, notes of apple, mango, and wood, and a slightly sweet finish. It's approachable for mezcal newcomers while still satisfying for seasoned enthusiasts."
+                    ],
+                    "alternatives": [
+                        "Del Maguey Vida",
+                        "Montelobos Espadín",
+                        "Ilegal Joven Mezcal"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Drambuie",
+                    "description": [
+                        "40% ABV",
+                        "Produced in Scotland",
+                        "Drambuie is a golden-colored liqueur made from Scotch whisky, heather honey, herbs, and spices. It has a rich, smooth flavor with notes of honeyed sweetness, warm spices, and a hint of peat, making it a classic ingredient in cocktails like the Rusty Nail."
+                    ],
+                    "alternatives": [
+                        "Bénédictine",
+                        "Grand Marnier (for a citrus-honey twist)",
+                        "Licor 43"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Gin",
+                    "description": [
+                        "Typically 37.5%–47% ABV",
+                        "Produced globally, with notable styles from the UK, Netherlands, and USA",
+                        "Gin is a distilled spirit flavored predominantly with juniper berries, often accompanied by botanicals like coriander, citrus peel, angelica root, and orris root. It ranges in style from dry to floral to citrus-forward, and forms the base of many classic cocktails like the Martini and Negroni."
+                    ],
+                    "alternatives": [
+                        "London Dry Gin",
+                        "Old Tom Gin",
+                        "Plymouth Gin"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Vodka or Gin",
+                    "description": [
+                        "Gin: Typically 37.5%–47% ABV | Vodka: Typically 35%–50% ABV",
+                        "Gin is produced globally, notably in the UK, Netherlands, and USA. Vodka is produced worldwide, with key origins in Russia, Poland, and Sweden.",
+                        "Gin is a juniper-forward spirit infused with botanicals like coriander, citrus peel, and angelica root, ranging from dry to floral. Vodka is a neutral grain or potato-based spirit known for its purity and versatility in cocktails."
+                    ],
+                    "alternatives": [
+                        "London Dry Gin",
+                        "New Western Gin",
+                        "Wheat Vodka",
+                        "Potato Vodka"
+                    ]
+                    },
+                    {
+                      "name": "Irish Whiskey",
+                      "description": [
+                        "Typically triple-distilled and aged for at least three years in wooden casks.",
+                        "Known for its smooth, light, and slightly sweet flavor profile with notes of vanilla, honey, and toasted wood.",
+                        "Produced exclusively in Ireland under strict regulations ensuring quality and authenticity."
+                      ],
+                      "alternatives": [
+                        "Jameson Irish Whiskey",
+                        "Tullamore D.E.W.",
+                        "Bushmills Original"
+                      ]
+                    },
+                    {
+                    "name": "Jamaican Gold Rum",
+                    "description": [
+                      "A medium-bodied rum with a rich golden color from aging in oak barrels",
+                      "Known for bold, funky esters and tropical fruit notes characteristic of Jamaican distillation methods",
+                      "Adds depth and complexity to tiki cocktails, punches, and classic rum drinks"
+                    ],
+                    "alternatives": ["Amber rum", "Barbados rum", "Aged agricole rum", "Dark Jamaican rum"]
+                  },
+                {
+                    "name": "Los Vecinos Mezcal",
+                    "description": [
+                    "45% ABV (alcohol by volume).",
+                    "Produced in Oaxaca, Mexico by master distillers using traditional methods.",
+                    "An artisanal mezcal made from 100% Espadín agave; known for its earthy, smoky flavor with hints of citrus and spice."
+                    ],
+                    "alternatives": [
+                    "Del Maguey Vida",
+                    "Montelobos Espadín",
+                    "El Silencio Espadín"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Mezcal",
+                    "description": [
+                    "Typically 40%–55% ABV",
+                    "Produced primarily in Oaxaca, Mexico, though other states like Durango and Guerrero also contribute",
+                    "Mezcal is a traditional Mexican spirit distilled from agave, often roasted in underground pits, giving it a distinctive smoky flavor. It encompasses a wide range of agave species, regions, and artisanal production techniques, making it a diverse and complex category."
+                    ],
+                    "alternatives": [
+                    "Espadín Mezcal",
+                    "Tobalá Mezcal",
+                    "Raicilla",
+                    "Sotol"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Plantation Dark Rum",
+                    "description": [
+                        "40% ABV",
+                        "Produced in the Caribbean (primarily Barbados and Jamaica), blended and finished in France by Maison Ferrand",
+                        "Plantation Dark Rum is a richly flavored rum known for its notes of ripe banana, tropical fruits, vanilla, and spice. Aged in both tropical and continental climates, it offers depth and complexity from double aging in bourbon and cognac casks."
+                    ],
+                    "alternatives": [
+                        "Diplomático Reserva Exclusiva",
+                        "Gosling’s Black Seal",
+                        "El Dorado 8 Year"
+                    ]
+                    }
+                    ,
+                                       
+                {
+                    "name": "Rittenhouse Rye",
+                    "description": [
+                        "50% ABV (100 Proof)",
+                        "Produced in Kentucky, USA by Heaven Hill Distillery",
+                        "Rittenhouse Rye is a bold, bonded straight rye whiskey known for its spicy, dry profile with notes of cocoa, citrus peel, and baking spice. It's a favorite among bartenders for classic cocktails like the Manhattan or Old Fashioned."
+                    ],
+                    "alternatives": [
+                        "Wild Turkey 101 Rye",
+                        "Bulleit Rye",
+                        "Old Forester Rye"
+                    ]
+                    }
+                    ,
+                {
+                    "name": "Rivi Gin",
+                    "description": [
+                      "42% ABV",
+                      "Produced in Devon, England",
+                      "Rivi Gin is a modern British gin made with a blend of traditional botanicals and locally sourced Devon herbs, offering a smooth and floral profile with notes of citrus, juniper, and wildflowers."
+                    ],
+                    "alternatives": ["Bombay Sapphire", "Tanqueray No. Ten", "Sipsmith London Dry"]
+                  }
+                  ,
+                {
+                    "name": "Rum",
+                    "description": [
+                      "Typically ranges from 35% to 50% ABV",
+                      "Produced globally, especially in the Caribbean, Central and South America, and parts of Asia",
+                      "Rum is a distilled spirit made from sugarcane byproducts such as molasses or directly from sugarcane juice. It varies in style from light and crisp white rums to rich, aged dark rums, and is a cornerstone of tropical and tiki-style cocktails."
+                    ],
+                    "alternatives": [
+                      "Cachaça",
+                      "Aguardiente",
+                      "Overproof Rum"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Rye Whiskey",
+                    "description": [
+                      "Typically 40% to 50% ABV",
+                      "Primarily produced in the United States and Canada",
+                      "Rye whiskey is a spicy, bold spirit distilled from a mash bill containing at least 51% rye grain. Known for its peppery, dry character, it's a staple in classic cocktails like the Manhattan and Old Fashioned. American rye tends to be more robust, while Canadian rye is often smoother and more blended."
+                    ],
+                    "alternatives": [
+                      "Bulleit Rye",
+                      "Woodford Reserve Rye",
+                      "Knob Creek Rye"
+                    ]
+                  }
+                  ,
+                  {
+                    "name": "Sazerac Rye",
+                    "description": [
+                      "45% ABV (90 Proof)",
+                      "Produced by Buffalo Trace Distillery in Frankfort, Kentucky.",
+                      "Sazerac Rye is a classic American rye whiskey with bold notes of clove, vanilla, anise, and pepper, finishing smooth with a touch of sweetness. It’s famously used in the Sazerac cocktail."
+                    ],
+                    "alternatives": [
+                      "Rittenhouse Rye",
+                      "Bulleit Rye",
+                      "Redemption Rye"
+                    ]
+                  },
+                
+                {
+                    "name": "St. George Citrus",
+                    "description": [
+                      "40% ABV",
+                      "Distilled in Alameda, California, USA",
+                      "This vodka is infused with Valencia oranges, Seville oranges, and bergamot, offering a bright, zesty citrus profile with a clean finish. It’s made from real fruit with no added flavorings or sweeteners, making it ideal for light, citrus-forward cocktails."
+                    ],
+                    "alternatives": [
+                      "Ketel One Oranje",
+                      "Absolut Citron",
+                      "Grey Goose L’Orange"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "St. George Terroir",
+                    "description": [
+                      "45% ABV",
+                      "Distilled in Alameda, California, USA",
+                      "This unique gin captures the essence of California’s wilderness with botanicals like Douglas fir, California bay laurel, and coastal sage. It delivers a bold, earthy aroma and a resinous, forest-like flavor that makes it stand out in classic gin cocktails or sipped neat."
+                    ],
+                    "alternatives": [
+                      "St. George Botanivore",
+                      "Junipero Gin",
+                      "Hendrick's Orbium"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Blanco Tequila",
+                    "description": [
+                      "Typically around 38–40% ABV",
+                      "Produced primarily in Jalisco, Mexico",
+                      "Blanco Tequila, also known as silver or white tequila, is unaged and bottled shortly after distillation. It showcases the purest expression of blue Weber agave, often with notes of pepper, citrus, and earthy minerals. Ideal for cocktails like Margaritas or Tequila Sours."
+                    ],
+                    "alternatives": [
+                      "Espolòn Blanco",
+                      "Patrón Silver",
+                      "Olmeca Altos Plata"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Vodka",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced worldwide, with notable producers in Russia, Poland, Sweden, and the USA",
+                      "Vodka is a clear, neutral spirit known for its clean taste and versatility in cocktails. Traditionally distilled from grains or potatoes, it serves as a base for countless drinks and is appreciated for its smoothness and subtle character."
+                    ],
+                    "alternatives": [
+                      "Tito's Handmade Vodka",
+                      "Belvedere Vodka",
+                      "Grey Goose"
+                    ]
+                  }
+                  ,
+                {
+                    "name": "Wheatley Vodka",
+                    "description": [
+                      "41% ABV",
+                      "Produced in Frankfort, Kentucky, USA",
+                      "Crafted at Buffalo Trace Distillery, Wheatley Vodka is a small-batch vodka made with wheat and distilled ten times for exceptional smoothness. It offers a crisp, clean profile with subtle hints of vanilla and a soft, rounded mouthfeel."
+                    ],
+                    "alternatives": [
+                      "Tito's Handmade Vodka",
+                      "Ketel One",
+                      "Absolut Elyx"
+                    ]
+                  }
+                  ,{
+                    "name": "Whiskey",
+                    "description": [
+                      "Typically 40% ABV and higher",
+                      "Produced globally, with major styles from the U.S., Scotland, Ireland, Canada, and Japan",
+                      "Whiskey is a distilled spirit made from fermented grain mash, aged in wooden barrels. It encompasses a variety of styles including bourbon, rye, Scotch, and Irish whiskey, each with distinct characteristics based on region, ingredients, and aging process."
+                    ],
+                    "alternatives": [
+                      "Bourbon",
+                      "Rye Whiskey",
+                      "Scotch Whisky",
+                      "Irish Whiskey",
+                      "Japanese Whisky"
+                    ]
+                  }
+
+                  
+                ]
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {
+                "category": "Liqueurs",
+                "items": [
+                      {
+                        "name": "Amaretto",
+                        "description": [
+                          "24%–28% ABV",
+                          "Originates from Italy, notably Saronno",
+                          "Amaretto is a sweet Italian liqueur made from almonds or apricot pits, offering a distinct nutty flavor with hints of vanilla and spice. It is commonly used in cocktails like the Amaretto Sour or enjoyed on its own."
+                        ],
+                        "alternatives": [
+                          "Disaronno Originale",
+                          "Luxardo Amaretto",
+                          "Gozio Amaretto",
+                          "Lazzaroni Amaretto"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Aperol",
+                        "description": [
+                          "11% ABV",
+                          "Produced in Padua, Italy",
+                          "Aperol is a vibrant Italian apéritif made from a secret blend of herbs and roots, including rhubarb and gentian. It’s known for its bright orange color and bittersweet, citrus-forward flavor, making it a key ingredient in the iconic Aperol Spritz."
+                        ],
+                        "alternatives": [
+                          "Campari (more bitter)",
+                          "Select Aperitivo",
+                          "Cappelletti Aperitivo"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Aqua Perfecta Basil Brandy",
+                        "description": [
+                          "40% ABV",
+                          "Produced by St. George Spirits in Alameda, California",
+                          "Aqua Perfecta Basil Brandy is a rare, herbaceous brandy distilled from fresh basil and fruit, capturing the intense aroma and flavor of just-picked basil. It's delicate, aromatic, and ideal for creative cocktails or sipping neat."
+                        ],
+                        "alternatives": [
+                          "St. George Pear Brandy",
+                          "Chartreuse (for herbal notes)",
+                          "Basil-infused vodka or gin"
+                        ]
+                      },
+                      {
+                        "name": "Campari",
+                        "description": [
+                          "24% ABV",
+                          "Produced in Italy",
+                          "Campari is a classic Italian apéritif known for its distinctive red color and bold, bittersweet flavor. Created in 1860, it's made from an infusion of herbs, aromatic plants, and fruit, though the exact recipe remains a closely guarded secret. Its complex profile of bitter orange, cherry, rhubarb, and spices makes it a key ingredient in iconic cocktails like the Negroni, Americano, and Boulevardier."
+                        ],
+                        "alternatives": [
+                          "Cappelletti Aperitivo",
+                          "Luxardo Bitter",
+                          "Contratto Bitter"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Chambord",
+                        "description": [
+                          "16.5% ABV",
+                          "Produced in the Loire Valley, France",
+                          "Chambord is a luxurious French black raspberry liqueur crafted with a blend of raspberries, blackberries, Madagascan vanilla, Moroccan citrus peel, honey, and cognac. Its rich, dark berry flavor with subtle notes of spice and vanilla makes it a versatile ingredient in cocktails or a decadent addition to desserts."
+                        ],
+                        "alternatives": [
+                          "Crème de Cassis",
+                          "Blackberry Brandy",
+                          "Giffard Framboise"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Chinola Passion Fruit",
+                        "description": [
+                          "21% ABV",
+                          "Produced in the Dominican Republic",
+                          "Chinola is a handcrafted liqueur made from real passion fruit juice blended with distilled spirits. It offers a bright, tangy, and slightly sweet flavor profile that highlights the tropical essence of fresh passion fruit, making it a standout addition to cocktails like spritzes, sours, and tropical riffs."
+                        ],
+                        "alternatives": [
+                          "Passoã Passion Fruit Liqueur",
+                          "Giffard Passion Fruit Liqueur",
+                          "Homemade passion fruit syrup with vodka or rum"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Coffee Liqueur",
+                        "description": [
+                          "Typically around 20–30% ABV",
+                          "Origin varies by brand (e.g., Mexico for Kahlúa, Italy for Borghetti)",
+                          "Coffee liqueur is a sweet, rich spirit made by combining coffee with a base liquor (usually rum or vodka) and sugar. It delivers deep coffee flavor with subtle chocolate and vanilla notes."
+                        ],
+                        "alternatives": [
+                          "Kahlúa",
+                          "Tia Maria",
+                          "Mr. Black Cold Brew Coffee Liqueur"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Cointreau",
+                        "description": [
+                          "40% ABV",
+                          "Produced in Angers, France",
+                          "Cointreau is a premium French triple sec made from a blend of sweet and bitter orange peels. Known for its crystal-clear appearance and vibrant, balanced citrus flavor, it is a staple in classic cocktails like the Margarita, Cosmopolitan, and Sidecar."
+                        ],
+                        "alternatives": [
+                          "Grand Marnier",
+                          "Combier Liqueur d’Orange",
+                          "Pierre Ferrand Dry Curaçao"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Domaine De Canton",
+                        "description": [
+                          "28% ABV",
+                          "Produced in Jarnac, France",
+                          "Domaine de Canton is a premium French ginger liqueur crafted from fresh baby ginger, Grand Champagne VSOP Cognac, Tahitian vanilla, and orange blossom honey from Provence. It offers a harmonious balance of spicy ginger warmth, subtle sweetness, and a smooth cognac finish, making it a versatile addition to both classic and contemporary cocktails."
+                        ],
+                        "alternatives": [
+                          "The King's Ginger",
+                          "Barrow’s Intense Ginger Liqueur",
+                          "Giffard Ginger of the Indies"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Dry Curacao",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Often produced in France, the Netherlands, or the Caribbean",
+                          "Dry Curaçao is a traditional orange liqueur made from bitter orange peels, brandy or neutral spirit, and various spices. Known for its drier, more complex flavor compared to triple sec, it brings notes of citrus zest, spice, and a mild sweetness, making it ideal for classic cocktails like the Mai Tai or Sidecar."
+                        ],
+                        "alternatives": [
+                          "Pierre Ferrand Dry Curaçao",
+                          "Cointreau",
+                          "Grand Marnier"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Fernet-Branca",
+                        "description": [
+                          "39% ABV",
+                          "Produced in Milan, Italy",
+                          "Fernet-Branca is a bold and bitter Italian amaro made with a secret blend of 27 herbs, roots, and spices including myrrh, rhubarb, chamomile, and saffron. Known for its intense medicinal flavor and high alcohol content, it is often consumed as a digestif or used in cocktails like the Toronto or the Hanky Panky."
+                        ],
+                        "alternatives": [
+                          "Luxardo Fernet",
+                          "Fernet-Vallet",
+                          "Branca Menta (sweeter mint variation)"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Gran Gala",
+                        "description": [
+                          "An Italian orange liqueur made from brandy and natural orange essence.",
+                          "It has a rich, smooth flavor with notes of sweet orange, vanilla, and caramel.",
+                          "Often used as a substitute for Grand Marnier in cocktails, adding depth and sweetness."
+                        ],
+                        "alternatives": [
+                          "Grand Marnier",
+                          "Cointreau",
+                          "Triple Sec"
+                        ]
+                      },
+                      {
+                        "name": "Grand Marnier",
+                        "description": [
+                          "40% ABV",
+                          "Produced in France",
+                          "Grand Marnier is a premium French liqueur made from a blend of Cognac and bitter orange essence. It offers a rich, smooth flavor with notes of orange peel, oak, vanilla, and spices. Often used in classic cocktails like the Margarita, Sidecar, or B-52, it's also enjoyed neat or in desserts."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Pierre Ferrand Dry Curaçao",
+                          "Gran Gala"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Green Chartreuse",
+                        "description": [
+                          "55% ABV",
+                          "Produced by Carthusian monks in Voiron, France",
+                          "Green Chartreuse is a vibrant herbal liqueur made from a secret blend of 130 herbs and botanicals. It has a bold, complex flavor with notes of mint, anise, citrus, and spices, and a vivid green color derived naturally from its ingredients."
+                        ],
+                        "alternatives": ["Yellow Chartreuse", "Benedictine", "Dolín Genepy"]
+                      }
+                      ,
+                      {
+                        "name": "Luxardo Cherry Liqueur",
+                        "description": [
+                          "32% ABV",
+                          "Produced in Torreglia, Italy",
+                          "Luxardo Cherry Liqueur, also known as Sangue Morlacco, is a deep red liqueur made from marasca cherries. It offers rich, sweet, and slightly tart cherry flavors with a velvety texture. Often used in classic cocktails like the Singapore Sling or the Blood and Sand, it can also be sipped neat or used in desserts."
+                        ],
+                        "alternatives": [
+                          "Heering Cherry Liqueur",
+                          "Giffard Cherry Brandy",
+                          "Bols Cherry Brandy"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Montenegro",
+                        "description": [
+                          "23% ABV",
+                          "Produced in Bologna, Italy",
+                          "Amaro Montenegro is a classic Italian herbal liqueur made from a secret blend of 40 botanicals, including spices, roots, and citrus peels. It has a bittersweet, complex flavor profile with notes of orange peel, vanilla, rose, and subtle spice, making it popular for sipping or mixing in cocktails like the Monte & Mezcal or Paper Plane."
+                        ],
+                        "alternatives": [
+                          "Averna Amaro",
+                          "Cynar",
+                          "Amaro Nonino"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Orange Curacao",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Originated from the island of Curaçao, often produced in the Caribbean or France",
+                          "Orange Curaçao is a sweet, orange-flavored liqueur made from the dried peels of bitter and sweet oranges. It has a rich, slightly bitter citrus profile and is commonly used in classic cocktails like the Mai Tai and Blue Lagoon."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Grand Marnier",
+                          "Dry Curaçao"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Orange Liqueur",
+                        "description": [
+                          "Typically 30–40% ABV",
+                          "Produced globally, with well-known varieties from France, the Caribbean, and the Netherlands",
+                          "Orange liqueur is a category of sweetened alcoholic beverages flavored with orange peel and zest. It includes a range of styles from dry to sweet, and is often used to add citrus brightness and complexity to cocktails such as the Margarita, Sidecar, and Cosmopolitan."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Triple Sec",
+                          "Grand Marnier",
+                          "Orange Curaçao"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "St. Germain",
+                        "description": [
+                          "20% ABV",
+                          "Produced in France",
+                          "St-Germain is an artisanal French liqueur crafted from fresh elderflower blossoms handpicked in the Alps. It offers a delicately sweet and floral profile with notes of pear, lychee, and citrus, making it a versatile addition to sparkling wine, gin, vodka, and tequila-based cocktails."
+                        ],
+                        "alternatives": [
+                          "Giffard Fleur de Sureau",
+                          "The Bitter Truth Elderflower Liqueur",
+                          "Homemade elderflower cordial (as a non-alcoholic substitute)"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Triple Sec",
+                        "description": [
+                          "Typically 15–40% ABV depending on the brand",
+                          "Originated in France",
+                          "Triple Sec is a clear, orange-flavored liqueur made from dried orange peels. It adds citrus brightness and sweetness to cocktails like the Margarita, Cosmopolitan, and Sidecar."
+                        ],
+                        "alternatives": [
+                          "Cointreau",
+                          "Grand Marnier",
+                          "Dry Curacao"
+                        ]
+                      }
+                      ,                      
+                      {
+                        "name": "Yellow Chartreuse",
+                        "description": [
+                          "40% ABV",
+                          "Produced in Voiron, France by Carthusian monks",
+                          "Yellow Chartreuse is a French herbal liqueur made from a secret blend of 130 plants, flowers, and herbs. It is milder and sweeter than Green Chartreuse, with notes of honey, saffron, anise, and citrus, and features a distinctive golden-yellow color derived from saffron."
+                        ],
+                        "alternatives": [
+                          "Benedictine",
+                          "Drambuie",
+                          "Dolín Genepy des Alpes"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Wines & Fortified",
+                "items": [
+                      {
+                        "name": "Dry Vermouth",
+                        "description": [
+                          "Typically 16–18% ABV",
+                          "Originated in France and Italy",
+                          "Dry Vermouth is a fortified wine aromatized with herbs and botanicals. It is crisp, slightly bitter, and herbal, making it a staple in classic cocktails like the Martini and the Manhattan (alongside sweet vermouth)."
+                        ],
+                        "alternatives": [
+                          "Lillet Blanc",
+                          "Noilly Prat Extra Dry",
+                          "Dolin Dry Vermouth"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Lillet Blanc",
+                        "description": [
+                          "17% ABV",
+                          "Produced in Podensac, France",
+                          "Lillet Blanc is a French aromatized wine made from Bordeaux grapes blended with citrus liqueurs and quinine. It has a floral and honeyed aroma with flavors of orange peel, white fruit, and gentle herbal bitterness, often used in aperitif cocktails like the Vesper or served over ice."
+                        ],
+                        "alternatives": [
+                          "Cocchi Americano",
+                          "Dry Vermouth",
+                          "Dolin Blanc Vermouth"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Living Jewel Sake",
+                        "description": [
+                          "14.5% ABV",
+                          "Brewed in Japan by Yaegaki Corporation",
+                          "Living Jewel Sake is a Junmai sake made with premium rice and soft water, resulting in a well-balanced, smooth, and slightly dry profile. It features delicate notes of melon, pear, and rice with a clean finish, making it versatile for pairing with light dishes or enjoying chilled."
+                        ],
+                        "alternatives": [
+                          "Tozai Living Jewel Junmai",
+                          "Hakutsuru Junmai",
+                          "Sho Chiku Bai Classic Junmai"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Sweet Vermouth",
+                        "description": [
+                          "Typically 15–18% ABV",
+                          "Originated in Italy; now produced globally",
+                          "Sweet vermouth is a fortified wine aromatized with herbs, roots, and spices. It has a rich, slightly bitter-sweet flavor with notes of vanilla, caramel, spices, and dried fruit. Commonly used in classic cocktails like the Manhattan and Negroni."
+                        ],
+                        "alternatives": [
+                          "Carpano Antica Formula",
+                          "Cocchi Vermouth di Torino",
+                          "Martini & Rossi Rosso"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "White Wine",
+                        "description": [
+                          "Typically 11–14% ABV",
+                          "Produced globally in wine regions such as France, Italy, the U.S., and New Zealand",
+                          "White wine is made from green or yellow grapes (or red grapes with skins removed before fermentation). It ranges in flavor from dry and crisp to sweet and fruity, and is often used in cocktails, spritzes, or for deglazing and flavoring in culinary applications."
+                        ],
+                        "alternatives": [
+                          "Dry Vermouth",
+                          "Sake",
+                          "White Grape Juice (non-alcoholic)",
+                          "Sparkling White Wine (e.g., Prosecco, Champagne)"
+                        ]
+                      }
+
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Champagne & Sparkling Wine",
+                "items": [
+                    {
+                        "name": "Albert Bichot Brut",
+                        "description": [
+                          "12% ABV",
+                          "Produced in Burgundy, France",
+                          "Albert Bichot Brut is a sparkling wine made in the traditional method, offering crisp acidity and fine bubbles with notes of green apple, citrus, white flowers, and a touch of brioche. A refined and elegant choice for celebratory occasions or cocktail bases."
+                        ],
+                        "alternatives": [
+                          "Gruet Brut",
+                          "Chandon Brut",
+                          "Lucien Albrecht Crémant d'Alsace"
+                        ]
+                      }
+                      ,
+                      {
+                        "name": "Champagne",
+                        "description": [
+                          "Typically 12–12.5% ABV",
+                          "Produced in the Champagne region of France",
+                          "Champagne is a sparkling wine made using the traditional method (Méthode Champenoise), known for its fine bubbles, bright acidity, and complex flavors ranging from citrus and green apple to brioche, almond, and mineral notes. It is often used in celebratory toasts and elegant cocktails."
+                        ],
+                        "alternatives": [
+                          "Crémant",
+                          "Cava",
+                          "Prosecco (for a fruitier option)"
+                        ]
+                      }
+                      
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Syrups & Sweeteners",
+                "items": [
+                { "name": "Agave", "description": [], "alternatives": [] },
+                { "name": "Black Tea Syrup", "description": [], "alternatives": [] },
+                { "name": "Five Spice Syrup", "description": [], "alternatives": [] },
+                {
+                  "name": "Honey Syrup",
+                  "description": [
+                    "Non-alcoholic",
+                    "Made by diluting honey with water, usually in a 1:1 or 2:1 ratio",
+                    "Honey syrup is a versatile sweetener used in cocktails to provide the rich, floral sweetness of honey in a more pourable, mixable form. It blends well in both hot and cold drinks."
+                  ],
+                  "alternatives": [
+                    "Simple Syrup",
+                    "Agave Syrup",
+                    "Maple Syrup"
+                  ]
+                }
+                ,
+                {
+                  "name": "Lychee Syrup",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically produced from lychee fruit concentrate or purée blended with sugar and water",
+                    "Lychee syrup is a sweet, fragrant syrup made from the tropical lychee fruit. It has a floral, slightly tart flavor with notes of rose and pear, making it an excellent addition to exotic or aromatic cocktails and mocktails."
+                  ],
+                  "alternatives": [
+                    "Elderflower syrup",
+                    "Rose syrup",
+                    "Passion fruit syrup"
+                  ]
+                }
+                ,
+                { "name": "Matcha Syrup", "description": [], "alternatives": [] },
+                {
+                    "name": "Orgeat",
+                    "description": [
+                      "Non-alcoholic",
+                      "Originally from France, now used globally",
+                      "Orgeat is a sweet almond syrup flavored with a hint of orange flower or rose water. It has a creamy, nutty profile and is essential in classic cocktails like the Mai Tai, lending richness and a floral backbone to drinks."
+                    ],
+                    "alternatives": [
+                      "Almond syrup (without floral notes)",
+                      "Falernum (for a spicier tropical twist)",
+                      "Homemade orgeat (DIY versions with varying nut and floral intensity)"
+                    ]
+                  }
+                  ,
+                  {
+                    "name": "Simple Syrup",
+                    "description": [
+                      "Non-alcoholic sweetener",
+                      "Made by dissolving sugar in water, typically at a 1:1 or 2:1 ratio",
+                      "Simple syrup is a staple cocktail ingredient that provides sweetness without the grittiness of granulated sugar. It’s used to balance flavors and enhance other ingredients in both classic and modern drinks."
+                    ],
+                    "alternatives": [
+                      "Honey Syrup",
+                      "Agave Syrup",
+                      "Maple Syrup",
+                      "Demerara Syrup"
+                    ]
+                  }
+
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Juices",
+                "items": [
+                { 
+                  "name": "Cranberry Juice", 
+                  "description": [], 
+                  "alternatives": [] 
+                },               
+                {
+                  "name": "Lemon Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically sourced from fresh lemons or bottled with minimal additives",
+                    "Lemon juice adds bright acidity and a refreshing tartness to cocktails. It balances sweetness, enhances flavors, and is a key ingredient in classics like the Whiskey Sour and Tom Collins."
+                  ],
+                  "alternatives": [
+                    "Lime juice",
+                    "Citric acid solution",
+                    "Yuzu juice"
+                  ]
+                }
+                ,
+                {
+                  "name": "Lime Juice",
+                  "description": [
+                    "Highly acidic citrus juice, typically around 6-8% acidity",
+                    "Sourced from Persian or Key limes, grown in tropical and subtropical regions",
+                    "Lime juice is a staple in cocktail making, prized for its tart brightness. It balances sweetness, enhances flavors, and adds a refreshing zing to drinks like margaritas, mojitos, and gimlets."
+                  ],
+                  "alternatives": [
+                    "Lemon Juice (milder and slightly sweeter)",
+                    "Citric Acid Solution (when fresh citrus is unavailable)",
+                    "Lime Cordial (sweeter, less acidic substitute)"
+                  ]
+                }
+                ,
+                {
+                  "name": "Orange Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Made by extracting juice from fresh oranges, commonly from Valencia or Navel varieties",
+                    "Orange juice is a bright, citrusy ingredient that brings sweetness, acidity, and a vibrant freshness to cocktails. It’s commonly used in drinks like the Screwdriver and Mimosa."
+                  ],
+                  "alternatives": [
+                    "Tangerine juice",
+                    "Mandarin juice",
+                    "Blood orange juice"
+                  ]
+                },                
+                {
+                  "name": "Pineapple Juice",
+                  "description": [
+                    "Tropical fruit juice made from pressed or blended pineapple",
+                    "Offers a sweet and tangy flavor with a bright acidity",
+                    "Commonly used in tiki and tropical cocktails to add body, sweetness, and a fruity aroma"
+                  ],
+                  "alternatives": ["Mango Juice", "Passion Fruit Juice", "Orange Juice"]
+                },
+                {
+                  "name": "Pomegranate Juice",
+                  "description": [
+                    "Non-alcoholic",
+                    "Typically made from fresh-pressed pomegranate seeds or available as bottled juice",
+                    "Pomegranate juice offers a deep ruby color, sweet-tart flavor, and antioxidant richness. It adds complexity and vibrant color to cocktails and mocktails, pairing well with spirits like vodka, gin, and rum."
+                  ],
+                  "alternatives": [
+                    "Cranberry juice",
+                    "Cherry juice",
+                    "Blackcurrant juice"
+                  ]
+                }
+                ,
+                { "name": "Yuzu", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Fresh & Garnishes",
+                "items": [
+                  {
+                  "name": "Basil",
+                  "description": [
+                    "A fragrant green herb with a sweet, slightly peppery flavor and hints of anise and clove.",
+                    "Used in cocktails for fresh, aromatic notes and as a vibrant garnish."
+                  ],
+                  "alternatives": [
+                    "Mint",
+                    "Shiso leaf",
+                    "Thai basil"
+                  ]
+                },
+                {
+                  "name": "Coffee",
+                  "description": [
+                    "A brewed beverage made from roasted coffee beans, typically served hot.",
+                    "Known for its rich aroma, bold flavor, and stimulating caffeine content.",
+                    "Commonly used as a base for coffee cocktails like the Irish Coffee or Espresso Martini."
+                  ],
+                  "alternatives": [
+                    "Cold Brew Coffee",
+                    "Espresso",
+                    "Americano"
+                  ]
+                },
+                  {
+                  "name": "Espresso",
+                  "description": [
+                    "A concentrated coffee brewed by forcing hot water through finely-ground coffee beans.",
+                    "Known for its rich flavor, velvety body, and crema layer."
+                  ],
+                  "alternatives": [
+                    "Strong brewed coffee",
+                    "Cold brew concentrate"
+                  ]
+                },
+                {
+                  "name": "Hot Coffee",
+                  "description": [
+                    "A brewed beverage made from roasted coffee beans, typically served hot.",
+                    "Known for its rich aroma, bold flavor, and stimulating caffeine content.",
+                    "Commonly used as a base for coffee cocktails like the Irish Coffee or Espresso Martini."
+                  ],
+                  "alternatives": [
+                    "Cold Brew Coffee",
+                    "Espresso",
+                    "Americano"
+                  ]
+                },
+                {
+                  "name": "Lime",
+                  "description": [
+                    "Citrus fruit known for its tart, acidic juice and fragrant zest",
+                    "Commonly used in cocktails for balance and brightness",
+                    "Fresh lime juice is preferred for its sharp flavor; also used as a garnish or rim enhancer"
+                  ],
+                  "alternatives": [
+                    "Lemon (slightly different acidity)",
+                    "Citric acid solution",
+                    "Bottled lime juice (less preferred due to flavor loss)"
+                  ]
+                },
+                { "name": "Mint Leaves", "description": [], "alternatives": [] },
+                { "name": "Mint Sprig", "description": [], "alternatives": [] },
+                { "name": "Shiso Leaf", "description": [], "alternatives": [] }
+                ]
+            },
+
+
+
+
+
+
+
+
+            {
+                "category": "Specialty & Misc",
+                "items": [
+                { "name": "Chili Tincture", "description": [], "alternatives": [] },
+                {
+                  "name": "Egg White",
+                  "description": [
+                    "Used in cocktails to add a smooth, silky texture and a frothy head",
+                    "Common in classic drinks like the Whiskey Sour and Pisco Sour",
+                    "Flavor is neutral; it's primarily used for texture and visual appeal"
+                  ],
+                  "alternatives": ["Aquafaba", "Foaming bitters", "Pasteurized egg white from carton"]
+                },
+                { "name": "Espresso", "description": [], "alternatives": [] },
+                {
+                  "name": "Heavy Cream",
+                  "description": [
+                    "Contains about 36–40% milk fat",
+                    "Widely produced in dairy farms across the world",
+                    "Heavy cream is a rich, thick cream commonly used in cocktails for texture and body. It adds a smooth, velvety mouthfeel and helps balance stronger or more bitter ingredients."
+                  ],
+                  "alternatives": [
+                    "Half-and-Half (lighter substitute)",
+                    "Coconut Cream (non-dairy alternative)",
+                    "Whipping Cream"
+                  ]
+                },
+                {
+                  "name": "Lightly Whipped Cream",
+                  "description": [
+                    "Contains about 36–40% milk fat",
+                    "Widely produced in dairy farms across the world",
+                    "Heavy cream is a rich, thick cream commonly used in cocktails for texture and body. It adds a smooth, velvety mouthfeel and helps balance stronger or more bitter ingredients."
+                  ],
+                  "alternatives": [
+                    "Half-and-Half (lighter substitute)",
+                    "Coconut Cream (non-dairy alternative)",
+                    "Whipping Cream"
+                  ]
+                }
+                ]
+            },
+
+
+
+
+
+
+
+            
+            {
+                "category": "Missing Ingredients",
+                "items": [
+                  {
+                    "name": "Absinthe",
+                    "description": [
+                      "A high-proof spirit flavored with anise, fennel, and wormwood",
+                      "Known for its intense herbal, licorice-like flavor and green hue",
+                      "Traditionally used in small quantities to rinse or mist glassware in cocktails like the Sazerac or Corpse Reviver No. 2"
+                    ],
+                    "alternatives": ["Pastis", "Herbsaint", "Pernod", "Anise liqueur"]
+                  },
+                  {
+                    "name": "Aguardiente",
+                    "description": [
+                      "29–60% ABV",
+                      "Traditionally produced in countries like Colombia, Ecuador, and Spain",
+                      "Aguardiente is a strong anise-flavored spirit derived from sugarcane, commonly enjoyed as a shot or in cocktails across Latin American cultures."
+                    ],
+                    "alternatives": ["Ouzo", "Pastis", "Sambuca"]
+                  },
+                  {
+                    "name": "Apricot Brandy",
+                    "description": [
+                      "Typically 20–30% ABV",
+                      "Produced by infusing brandy with apricot flavor or distilling fermented apricot juice",
+                      "Apricot Brandy is a sweet, fruit-forward liqueur known for its rich apricot aroma and flavor. It’s commonly used in both classic and tropical-style cocktails to add warmth and fruity complexity."
+                    ],
+                    "alternatives": [
+                      "Rothman & Winter Orchard Apricot",
+                      "Marie Brizard Apry",
+                      "Giffard Abricot du Roussillon",
+                      "Apricot Schnapps"
+                    ]
+                  },
+                  {
+                    "name": "Blackberry Liqueur",
+                    "description": [
+                      "Typically 15–25% ABV (varies by brand and recipe)",
+                      "A sweet, dark purple liqueur made by infusing blackberries into a neutral spirit, often with added sugar",
+                      "Used in cocktails for its fruity, tart flavor—often interchangeable with Crème de Mûre"
+                    ],
+                    "alternatives": [
+                      "Chambord",
+                      "Crème de Mûre",
+                      "Blackberry brandy",
+                      "Homemade blackberry syrup with a touch of vodka or rum"
+                    ]
+                  },
+                  {
+                    "name": "Blackstrap Rum",
+                    "description": [
+                      "Typically around 40% ABV",
+                      "Produced in various regions including the Caribbean and the U.S.",
+                      "Blackstrap Rum is a dark, rich molasses-forward rum made from the final molasses byproduct of sugar refining. It offers deep flavors of burnt caramel, licorice, toffee, and spice, making it ideal for tiki drinks and bold cocktails where its intense profile can shine."
+                    ],
+                    "alternatives": [
+                      "Cruzan Black Strap Rum",
+                      "Lamb's Navy Rum",
+                      "Gosling's Black Seal"
+                    ]
+                  },
+                  {
+                    "name": "Butterfly Pea Gin",
+                    "description": [
+                        "A floral-infused variation of Rivi Gin featuring butterfly pea flower and honeysuckle.",
+                        "Naturally colored with butterfly pea flower, which gives the gin a vibrant indigo hue that can change color with pH (e.g., when mixed with citrus).",
+                        "Offers a delicate balance of floral notes and subtle sweetness, making it ideal for visually striking cocktails."
+                    ],
+                    "alternatives": [
+                        "Empress 1908 Gin",
+                        "Bloom Jasmine & Rose Gin",
+                        "Lavender-Infused Gin"
+                    ]
+                  },
+                  {
+                    "name": "Cachaca",
+                    "description": [
+                      "Typically 38–48% ABV",
+                      "A Brazilian spirit made from fermented sugarcane juice, similar to rum but with a distinct grassy, earthy flavor",
+                      "Used primarily in the Caipirinha cocktail, it's a key component of Brazilian mixology and varies from industrial to artisanal expressions"
+                    ],
+                    "alternatives": [
+                      "White rum (for general use)",
+                      "Rhum Agricole",
+                      "Pisco (in some cocktails with citrus-forward profiles)"
+                    ]
+                  },
+                  {
+                    "name": "Caffe Borghetti Espresso",
+                    "description": [
+                      "25% ABV",
+                      "Produced in Italy",
+                      "Caffè Borghetti is an authentic Italian coffee liqueur crafted from real espresso made with Arabica and Robusta beans. Based on a recipe dating back to 1860, it offers a rich, intense aroma and a sweet, enveloping taste with notes of freshly brewed coffee, dark chocolate, and hints of vanilla. Its smooth and velvety texture makes it ideal for sipping neat, over ice, or as a key ingredient in coffee-based cocktails."
+                    ],
+                    "alternatives": [
+                      "Tia Maria",
+                      "Mr Black Cold Brew Coffee Liqueur",
+                      "St. George NOLA Coffee Liqueur",
+                      "Kahlúa"
+                    ]
+                  },
+                  {
+                    "name": "Calvados",
+                    "description": [
+                      "Typically 40% ABV",
+                      "Produced in the Normandy region of France",
+                      "Calvados is a French apple brandy made by distilling cider. It offers a complex flavor profile with notes of baked apple, spice, and oak, and is often enjoyed neat or used in classic cocktails like the Corpse Reviver No.1."
+                    ],
+                    "alternatives": [
+                      "Applejack (e.g., Laird’s)",
+                      "Apple Brandy",
+                      "Pommeau de Normandie"
+                    ]
+                  },
+                  {
+                    "name": "Cream of Coconut",
+                    "description": [
+                      "Non-alcoholic",
+                      "Produced by various brands including Coco López and Real Gourmet",
+                      "Cream of Coconut is a sweetened coconut milk product used in tropical and tiki cocktails. It has a rich, creamy texture and intense coconut flavor, commonly found in drinks like the Piña Colada."
+                    ],
+                    "alternatives": [
+                      "Coconut Rum",
+                      "Coconut Milk + Simple Syrup",
+                      "Coconut Cream",
+                      "Coco Real"
+                    ]
+                  },
+                  {
+                  "name": "Creme de Cacao (White)",
+                  "description": [
+                    "A clear, sweet liqueur with flavors of chocolate and vanilla.",
+                    "Used in dessert cocktails and classics like the Alexander."
+                  ],
+                  "alternatives": [
+                    "Creme de Cacao (Dark)",
+                    "Chocolate Liqueur",
+                    "Godiva White Chocolate Liqueur"
+                  ]
+                },
+                  {
+                    "name": "Creme De Menthe (Green)",
+                    "description": [
+                      "A sweet, mint-flavored liqueur with a vibrant green color.",
+                      "Often used in dessert cocktails and classics like the Grasshopper."
+                    ],
+                    "alternatives": [
+                      "Creme de Menthe (White)",
+                      "Peppermint Schnapps",
+                      "Menthe-Pastille"
+                    ]
+                  },
+                  {
+                    "name": "Creme de Violette",
+                    "description": [
+                      "Typically 20% ABV",
+                      "Originated in France",
+                      "Creme de Violette is a floral liqueur made from violet flowers. It has a deep purple color and offers a sweet, perfumed flavor. Most famously used in the classic Aviation cocktail, it adds both color and a delicate floral note."
+                    ],
+                    "alternatives": [
+                      "Parfait Amour",
+                      "Violet Syrup (non-alcoholic, for mocktails)",
+                      "Homemade violet liqueur"
+                    ]
+                  },
+                  {
+                    "name": "Cuban Rum",
+                    "description": [
+                      "Typically 35–40% ABV",
+                      "Produced in Cuba, under strict government regulations and traditional methods",
+                      "Cuban Rum is known for its smooth, light-bodied profile with notes of molasses, vanilla, and subtle oak, making it ideal for classic cocktails like the Mojito and Daiquiri."
+                    ],
+                    "alternatives": ["Puerto Rican Rum", "Flor de Caña", "Ron Diplomático"]
+                  },
+                  {
+                    "name": "Dark Creme de Cacao",
+                    "description": [
+                      "Sweet chocolate-flavored liqueur",
+                      "Traditionally made from cocoa beans and vanilla",
+                      "Dark Creme de Cacao is a rich, sweet liqueur used in classic and dessert-style cocktails. It has a deeper chocolate flavor and darker color compared to the white variety, making it ideal for drinks where chocolate notes are prominent."
+                    ],
+                    "alternatives": [
+                      "White Creme de Cacao",
+                      "Godiva Chocolate Liqueur",
+                      "Mozart Dark Chocolate Liqueur",
+                      "Chocolate Brandy"
+                    ]
+                  },
+                  {
+                  "name": "Demerara Sugar",
+                  "description": [
+                    "A type of raw cane sugar with large, golden-brown crystals and a subtle molasses flavor.",
+                    "It is less refined than white sugar, retaining more of its natural minerals and caramel notes.",
+                    "Commonly used in cocktails and baking for added depth and texture."
+                  ],
+                  "alternatives": [
+                    "Turbinado Sugar",
+                    "Brown Sugar",
+                    "Raw Cane Sugar"
+                  ]
+                  },
+                  {
+                    "name": "Demerara Syrup",
+                    "description": [
+                      "Rich, dark simple syrup made from Demerara sugar.",
+                      "Known for its deep caramel and molasses flavor that adds body and complexity to cocktails.",
+                      "Commonly used in tropical and spirit-forward drinks like the Old Fashioned or Mai Tai."
+                    ],
+                    "alternatives": [
+                      "Turbinado Syrup",
+                      "Brown Sugar Syrup",
+                      "Simple Syrup"
+                    ]
+                  },
+                  {
+                    "name": "Falernum",
+                    "description": [
+                      "A sweet Caribbean syrup or liqueur flavored with lime, almond, ginger, and cloves",
+                      "Available in both alcoholic and non-alcoholic versions",
+                      "Commonly used in tiki and tropical cocktails to add depth, spice, and citrus complexity"
+                    ],
+                    "alternatives": ["Orgeat", "Ginger Syrup", "Spiced Syrup"]
+                  },
+                  {
+                    "name": "Grenadine",
+                    "description": [
+                      "Non-alcoholic",
+                      "Traditionally made from pomegranate juice, sugar, and water (though many commercial versions use artificial flavors)",
+                      "Grenadine is a rich, ruby-red syrup known for its sweet and slightly tart profile. It’s used to add color, sweetness, and a fruity depth to classic cocktails like the Tequila Sunrise and Shirley Temple."
+                    ],
+                    "alternatives": [
+                      "Luxardo cherry syrup",
+                      "Pomegranate molasses (diluted with simple syrup)",
+                      "Homemade pomegranate syrup",
+                      "Raspberry syrup"
+                    ]
+                  },
+                  {
+                    "name": "Horseradish",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "A pungent root commonly used to add heat and sharpness to savory cocktails",
+                      "Most famously used in Bloody Marys to enhance spiciness and depth of flavor"
+                    ],
+                    "alternatives": [
+                      "Wasabi (use sparingly)",
+                      "Prepared mustard",
+                      "Hot sauce (for heat without texture)"
+                    ]
+                  },
+                  {
+                    "name": "Hot Sauce",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "Made from chili peppers, vinegar, and salt, with regional variations across the globe",
+                      "Hot sauce adds heat, tang, and complexity to cocktails like the Bloody Mary or Michelada, enhancing flavor and intensity."
+                    ],
+                    "alternatives": [
+                      "Chili Oil (sparingly)",
+                      "Sriracha",
+                      "Tabasco or other regional pepper sauces"
+                    ]
+                  },
+                  {
+                    "name": "House Made Lemonade",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made in-house using fresh lemons, water, and sugar",
+                      "House Made Lemonade is a fresh, tart, and slightly sweet citrus mixer commonly used in cocktails for brightness or served on its own as a refreshing beverage."
+                    ],
+                    "alternatives": [
+                      "Fresh Lemon Juice with Simple Syrup",
+                      "Store-Bought Lemonade",
+                      "Lemon-Lime Soda (as a lighter alternative)"
+                    ]
+                  },
+                  { 
+                    "name": "Mango Puree", 
+                    "description": [], 
+                    "alternatives": [] },
+                  {
+                      "name": "My Oh Mai Tai Batch",
+                      "description": [
+                        "ABV varies depending on the rum base and dilution",
+                        "Typically prepared in-house",
+                        "A modern twist on the classic Mai Tai, this clarified batch blends rum, lime, orgeat, and orange liqueur. The clarification process removes solids for a crystal-clear appearance while retaining the drink’s tropical depth, nutty richness, and citrus brightness."
+                      ],
+                      "alternatives": [
+                        "Classic Mai Tai (non-clarified)",
+                        "Clarified Daiquiri",
+                        "Clarified Rum Punch"
+                      ]
+                  },
+                  {
+                      "name": "Old Tom Gin",
+                      "description": [
+                        "Typically 40–45% ABV",
+                        "Historically produced in England, now crafted by various distillers worldwide",
+                        "Old Tom Gin is a slightly sweeter and fuller-bodied style of gin, bridging the gap between Dutch Genever and London Dry. It features botanicals similar to dry gin but with a softer, rounder profile, making it ideal for classic cocktails like the Tom Collins and Martinez."
+                      ],
+                      "alternatives": ["Hayman's Old Tom", "Ransom Old Tom", "Barr Hill Tom Cat"]
+                    },
+                    {
+                      "name": "Passion Fruit Syrup",
+                      "description": [
+                        "A sweet and tangy syrup made from passion fruit pulp and sugar",
+                        "Offers vibrant tropical aromas with tart, citrusy notes",
+                        "Commonly used in tiki cocktails, lemonades, and exotic punches"
+                      ],
+                      "alternatives": ["Passion fruit purée", "Passion fruit liqueur", "Mango syrup", "Pineapple syrup"]
+                    },
+                    {
+                      "name": "Pisco",
+                      "description": [
+                        "Typically 38–48% ABV",
+                        "Produced in Peru and Chile",
+                        "Pisco is a clear or slightly amber grape brandy made by distilling fermented grape juice into a high-proof spirit without aging in wood. It has floral, fruity, and earthy notes and is the base spirit in cocktails like the Pisco Sour and Chilcano."
+                      ],
+                      "alternatives": [
+                        "Grappa",
+                        "Cachaca",
+                        "Unaged Brandy"
+                      ]
+                    }
+                  ,
+                  {
+                      "name": "Prosecco",
+                      "description": [
+                        "11–12% ABV",
+                        "Produced primarily in the Veneto and Friuli Venezia Giulia regions of Italy",
+                        "Prosecco is a sparkling white wine made primarily from the Glera grape. It’s known for its light, crisp, and fruity character with notes of green apple, pear, and white flowers. It is typically less dry and more fruit-forward than Champagne, making it a popular choice for spritzes and celebratory cocktails."
+                      ],
+                      "alternatives": [
+                        "Cava",
+                        "Champagne",
+                        "Crémant"
+                      ]
+                  }
+                  , 
+                  {
+                    "name": "Raspberry Syrup",
+                    "description": [
+                      "A sweet, fruit-based syrup made from raspberries, sugar, and water",
+                      "Adds a tart berry flavor and vibrant red color to cocktails",
+                      "Often used in drinks like Clover Club or for custom raspberry infusions"
+                    ],
+                    "alternatives": ["Grenadine", "Strawberry Syrup", "Raspberry Purée", "Homemade berry simple syrup"]
+                  }
+                  ,
+                  {
+                      "name": "Redemption Rye",
+                      "description": [
+                        "42%–46% ABV depending on the expression",
+                        "Distilled in Indiana and bottled in Kentucky, USA",
+                        "Redemption Whiskey is a high-rye bourbon or rye whiskey (depending on the expression) known for its bold spice, smooth vanilla undertones, and classic American whiskey character. It’s crafted to highlight the rye content and is popular in both sipping and classic cocktails like the Old Fashioned or Manhattan."
+                      ],
+                      "alternatives": [
+                        "Bulleit Rye",
+                        "Rittenhouse Rye",
+                        "Knob Creek Rye"
+                      ]
+                    },
+                    {
+                      "name": "Rittenhouse Rye",
+                      "description": [
+                          "50% ABV (100 Proof)",
+                          "Produced in Kentucky, USA by Heaven Hill Distillery",
+                          "Rittenhouse Rye is a bold, bonded straight rye whiskey known for its spicy, dry profile with notes of cocoa, citrus peel, and baking spice. It's a favorite among bartenders for classic cocktails like the Manhattan or Old Fashioned."
+                      ],
+                      "alternatives": [
+                          "Wild Turkey 101 Rye",
+                          "Bulleit Rye",
+                          "Old Forester Rye"
+                      ]
+                    },                
+                  {
+                      "name": "Rose Bud Infused Vodka",
+                      "description": [
+                      "Typically 35–40% ABV, depending on base vodka",
+                      "Homemade or craft-infused, often using premium neutral vodka as a base",
+                      "Rose Bud Infused Vodka features a delicate floral aroma and subtle sweetness, created by steeping dried rose buds in vodka. It's ideal for elegant cocktails, adding a romantic, botanical note to spritzes, fizzes, or martinis."
+                      ],
+                      "alternatives": [
+                      "Hibiscus-Infused Vodka",
+                      "Elderflower Vodka",
+                      "Lavender-Infused Vodka"
+                      ]
+                  },
+                  {
+                    "name": "St. George Botanivore",
+                    "description": [
+                      "45% ABV",
+                      "Crafted in Alameda, California, USA",
+                      "St. George Botanivore is a vibrant American gin distilled with 19 botanicals, including bay laurel, coriander, and dill seed. It offers a fresh, herbaceous flavor profile with floral and citrus notes, making it highly versatile for both classic and modern cocktails."
+                    ],
+                    "alternatives": [
+                      "St. George Terroir Gin",
+                      "Hendrick's Gin",
+                      "The Botanist Islay Dry Gin",
+                      "Greenhook Ginsmiths American Dry"
+                    ]
+                  },
+                  {
+                      "name": "Sugar Cube",
+                      "description": [
+                        "Solid form of sugar, typically made from white granulated sugar pressed into cube shapes",
+                        "Used for precise sugar measurement and slow dissolution in cocktails",
+                        "Common in classic drinks like the Old Fashioned or Champagne Cocktail, often muddled with bitters or liquids to create a base"
+                      ],
+                      "alternatives": ["Simple Syrup", "Demerara Sugar", "Honey"]
+                    },
+                  {
+                    "name": "Tomato Juice",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made from fresh, ripe tomatoes—sometimes with added salt, spices, or citric acid",
+                      "Tomato juice is a savory mixer known for its use in cocktails like the Bloody Mary. It adds body, acidity, and umami richness, balancing bold spirits and spices."
+                    ],
+                    "alternatives": [
+                      "Vegetable Juice (e.g., V8)",
+                      "Clamato Juice",
+                      "Homemade Tomato Purée (thinned with water)"
+                    ]
+                  }
+                  ,
+                  {
+                    "name": "White Peach Puree",
+                    "description": [
+                      "Non-alcoholic",
+                      "Made from ripe white peaches blended into a smooth, thick purée",
+                      "White peach puree adds a delicate, sweet, and slightly floral fruitiness to cocktails. It is often used in Bellinis and other fruit-forward drinks for its soft flavor and natural texture."
+                    ],
+                    "alternatives": [
+                      "Yellow Peach Puree",
+                      "Apricot Puree",
+                      "White Peach Juice"
+                    ]
+                  }
+                  ,{
+                    "name": "Worcestershire Sauce",
+                    "description": [
+                      "Non-alcoholic condiment",
+                      "Originally from England, made with vinegar, molasses, anchovies, tamarind, garlic, and various seasonings",
+                      "Worcestershire sauce is a savory, umami-rich ingredient commonly used to enhance depth in cocktails like the Bloody Mary, as well as in marinades and sauces."
+                    ],
+                    "alternatives": [
+                      "Soy Sauce (with a dash of vinegar and sugar)",
+                      "Fish Sauce (used sparingly)",
+                      "Homemade Worcestershire blend"
+                    ]
+                  }
+
+
+
+
+
+
+
+
+                ]
+            }
+        ]   
+
+    }
+]

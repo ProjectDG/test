@@ -1,0 +1,921 @@
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(./images/japan.png);
+    background-color: rgb(58, 23, 31);
+    color: antiquewhite;
+}
+
+::backdrop {
+  background-image: url("./images/japan.png");
+  background-size: 105% 100%;
+}  
+
+.hamburger-menu {
+  z-index: 1001;
+  width: 4%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+  margin: 10px 10px 10px 25px;
+}
+
+.hamburger-menu .bar {
+  height: 7px;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#menu{
+  /* border: 2px solid red; */
+  display: none;
+  z-index: 1000;
+  width: 40%;
+  max-height: 83%;
+  border: .5vh outset rgb(227, 191, 127);;
+  background-color: #000000dd;
+  position: absolute;
+  top: 10vh;
+  left: 1.25vw;
+}
+
+.menu-sections{
+  cursor: pointer;
+  margin: 6% 5%;
+  padding: 2% 3%;
+  font-size: 3vh;
+  background-color: rgba(54, 45, 31, 0.809);
+  border-radius: 20px;
+}
+
+#scrollContainer{
+  width: 100%;
+}
+
+.under-construction{
+  font-size: 7vh;
+  text-shadow: 10px 10px 10px #000000;
+}
+
+#qrDiv{
+  height: 100%;
+}
+
+#qrTitle{
+  color: antiquewhite;
+  text-shadow: 10px 10px 10px #000000;
+  text-align: center;
+}
+
+#qrImgDiv{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+#qrCode{
+  border: 1px solid #000000;
+  box-shadow: 5px 5px 10px #313131;
+  height: 100%;
+  margin: auto;
+}
+
+#drinkList{
+  margin: 0;
+  width: 100%;
+  background-color: #000000b6;
+}
+
+.drink-list{
+  font-size: 4vh;
+  list-style: none;
+}
+
+
+/* Batch Recipes Cards */
+/* Batch Recipes Cards - full width style */
+.batch-cards {
+    border: .5vh solid #ffd700;
+    background-color: #1a1a1acc;
+    color: antiquewhite;
+    padding: 2vh;
+    margin: 2%;
+    width: 45%; /* Two cards per row */
+    min-width: 300px;
+    max-width: 600px;
+    box-shadow: 0 0 15px #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    transition: transform 0.2s ease;
+}
+
+.batch-cards:hover {
+    transform: scale(1.02);
+}
+
+.batch-cards h2 {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding-bottom: 1vh;
+    color: #ffd700;
+    border-bottom: 1px solid #ffd700;
+    text-shadow: 1px 1px 3px black;
+}
+
+.batch-cards ul {
+    padding-left: 1.5rem;
+    margin-top: 1vh;
+}
+
+.batch-cards li {
+    margin: 0.5vh 0;
+    font-size: 1.9vh;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.batch-cards .alt-title {
+    margin-top: 1vh;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 2vh;
+    color: #ffa500;
+}
+
+@media screen and (max-width: 800px) {
+    .batch-cards {
+        width: 90%;
+        min-width: unset;
+        margin: 1% auto;
+    }
+    .batch-cards h2 {
+        font-size: 2.5vh;
+    }
+    .batch-cards li, .batch-cards .alt-title {
+        font-size: 1.7vh;
+    }
+}
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#mainContainer, #scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#mainContainer, #scrollContainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+#alphabetNav {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+  background: inherit; /* match parent background */
+  padding: 5px 0;
+}
+
+#alphabetNav span {
+  width: 100%;
+  color: antiquewhite;
+  font-size: 3vh;
+  flex-grow: 1;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+#alphabetNav span:hover {
+  color: antiquewhite;
+}
+
+/* Drink list sections */
+.drink-section {
+  padding-top: 30px; /* for offset with fixed nav if needed */
+}
+
+button.missing {
+  opacity: 0.5;
+  /* color: #bbb; */
+  color: white;
+  /* pointer-events: none; Optional: disable clicking */
+}
+
+button{
+  border: .5vh outset rgb(227, 191, 127);
+  box-shadow: 0 0 15px #313131;
+  background-color: rgba(112, 73, 11, 0.907);
+  background-image: linear-gradient(rgba(200, 131, 21, 0.571), rgba(34, 22, 4, 0.116));
+  margin: 1%;
+  width: 45vw;
+  height: 9vh;
+  font-size: 3vh;
+  cursor: pointer;
+  color: antiquewhite;
+  position: relative;
+}
+
+.nav-buttons{
+  background-color: rgba(54, 45, 31, 0.809);
+  border-radius: 30px;
+}
+
+.drink-buttons{
+  border: .5vh outset rgb(227, 191, 127);
+  padding: 1.25%;
+  width: 16vw;
+  height: 25vh;
+  border-radius: 20%;
+}
+
+.missing-ingredient{
+  font-size: 2vh;
+  background-color: rgba(255, 0, 0, 0.9);
+  padding: 1vh;
+  position: absolute;
+  top: 150px;
+  right: 15px;
+  height: 3vh;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+#cocktails,
+#originals{
+  width: 47%;
+  height: 10vh;
+}
+
+#searchDrinks{
+  width: 96%;
+  height: 10vh;
+}
+
+#topNav,
+#bottomNav{
+  /* border: 2px outset red; */
+  padding: .1%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#topNav{
+  width: 98%;
+  padding-right: 2%;
+}
+
+#mainContainer{
+  border-top: .5vh outset rgb(227, 191, 127);
+  border-bottom: .5vh outset rgb(227, 191, 127);
+  background-color: #0000006e;
+  box-shadow: 0 0 15px #313131;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+[id="Crouching Tiger"] {
+  background-color: rgb(156, 68, 0);
+  order: 8;
+}
+
+#searchDiv{
+  /* border: 2px solid red; */
+  margin: 0%;
+  width: 95%;
+  height: 15%;
+  position: absolute;
+  top: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchInput{
+  width: 80%;
+  padding: 1%;
+  font-size: 2.5vh;
+}
+
+#clearButton{
+  width: 10vw;
+  height: 7vh;
+}
+
+#searchListDiv{
+  /* border: 3px solid red; */
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 60%;
+  overflow: auto;
+}
+
+.error-message{
+  font-size: 6vh;
+  font-weight: bold;
+  text-shadow: 0 0 15px #000000;
+}
+
+#drinkInfoContainer{
+  /* border: 2px solid purple; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#cardTitle{
+  border-bottom: .5vh inset rgb(227, 191, 127);
+  background-color: #0000006e;
+  text-shadow: 0 0 15px #000000;
+  width: 98%;
+  height: 8vh;
+  padding: 0 2%;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drinkInfo{
+  /* border: 2px solid orange; */
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-divs{
+  /* border: 1px solid red; */
+  /* box-shadow: 0 0 20px #313131; */
+  /* border: .25vh outset rgb(227, 191, 127); */
+  /* margin: .5%; */
+  width: 23%;
+  height: 100%;
+}
+
+#drinkPhoto{
+  /* box-shadow: 0 0 15px #313131; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0000006e; */
+}
+
+.drink-photo{
+  border: 1px outset black;
+  box-shadow: 0 0 10px #000000;
+  max-width: 20vw;
+  max-height: 40vh;
+  overflow: hidden;
+}
+
+#drinkRecipeDiv{
+  /* border: 3px solid pink; */
+  border-left: .25vh outset rgb(227, 191, 127);
+  border-right: .25vh outset rgb(227, 191, 127);
+  width: 45%;
+  height: 100%;
+  font-size: 2.5vh;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-color: rgb(0, 0, 0, .8);
+}
+
+.recipe-div{
+  /* border: 2px solid blue; */
+  /* margin: 3%; */
+  /* display: flex; */
+  /* text-decoration: underline; */
+  width: 100%;
+}
+
+.recipe-title-div{
+  /* border: 4px solid red; */
+  display: flex;
+}
+
+.recipe-title{
+  /* border: 2px solid orange; */
+  width: 22%;
+  margin: 0 0 2% 4%;
+  padding: 0%;
+  display: block;
+  text-align: left;
+  /* font-weight: 600; */
+  /* background-color: rgb(0, 0, 0, .8); */
+  color: antiquewhite;
+  /* text-decoration: underline; */
+}
+
+.drink-recipe{
+  max-width: 100%;
+}
+
+.recipe{
+  /* border: 1px solid green; */
+  max-width: 100%;
+  margin: 0%;
+  margin-bottom: 2%;
+  /* font-weight: 600; */
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+
+#drinkInstructionsDiv{
+  /* border: 2px solid red; */
+  background-color: #0000006e;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  width: 30%;
+}
+
+#drinkInstructionsTitle{
+  border-bottom: .25vh inset rgb(227, 191, 127);
+  border-top: .25vh inset rgb(227, 191, 127);
+  width: 100%;
+  height: fit-content;
+  padding: 1vh 0;
+  font-size: 2.25vh;
+  font-weight: 600;
+  text-align: center;
+}
+
+.instructions{
+  text-align: left;
+  margin: 8% 5%;
+  font-size: 2vh;
+}
+
+#modalBG{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalContent{
+  position: fixed;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  border: .5vh outset rgb(227, 191, 127);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inventory-photo{
+  margin: 2vh;
+  max-height: 85vh;
+  max-width: 80vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-content{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+
+#modalBG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 80%;
+  max-height: 80%;
+  /* max-width: 600px; */
+  color: #f5f5f5;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+#modalTitleDiv{
+  width: 100%;
+  margin: 0%;
+}
+
+.modal-title {
+  font-size: 2rem;
+  margin: 0%;
+  margin-bottom: 1rem;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.modal-flex{
+  width: 100%;
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.modal-image {
+  display: block;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 20vw;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.modal-right{
+  width: 80%;
+  margin: auto;
+}
+
+.modal-description, li {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.modal-alternatives {
+  margin-top: 2rem;
+}
+
+.modal-alt-title, .modal-desc-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.modal-alt-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.modal-alt-list li {
+  margin: 0.25rem 0 1.5rem;
+  color: #bbb;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 199% 115%;
+    display: block;
+  }
+
+  .hamburger-menu {
+    z-index: 1001;
+    width: 8%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 32%;
+    margin: 10px 10px 10px 15px;
+  }
+  
+  .hamburger-menu .bar {
+    height: 7px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  #menu{
+    /* border: 2px solid red; */
+    display: none;
+    z-index: 1000;
+    width: 80%;
+    max-height: 85%;
+    border: .5vh outset rgb(227, 191, 127);;
+    background-color: #000000dd;
+    position: absolute;
+    top: 10vh;
+    left: 1.25vw;
+    padding: 4vh 2vh;
+  }
+
+  .drink-list{
+    font-size: 2.5vh;
+  }
+  
+  .menu-sections{
+    cursor: pointer;
+    margin: 6% 5%;
+    padding: 3%;
+    font-size: 3vh;
+    background-color: rgba(54, 45, 31, 0.809);
+    border-radius: 20px;
+  }
+
+  #qrCode{
+  height: 80%;
+}
+
+  .under-construction{
+  font-size: 3.5vh;
+  text-shadow: 10px 10px 10px #000000;
+}
+
+  #drinkRecipeDiv{
+    width: 96%;
+    height: 64.5vh;
+  }
+
+  .info-divs{
+    width: 96%;
+    margin: 1% 0;
+  }
+
+  #drinkInstructionsDiv{
+    width: 96%;
+    height: fit-content;
+    order: 2;
+    font-size: 2vh;
+  }
+
+  .drink-recipe{
+    width: 75%;
+  }
+
+  .recipe{
+    max-width: 100%;
+  }
+
+  #drinkPhoto{
+    height: fit-content;
+    padding: 4% 0;
+    order: 1;
+  }
+
+  .drink-photo{
+    max-width: 90vw;
+  }
+
+  .drink-buttons{
+    width: 44vw;
+    height: 13vh;
+    padding: 3%;
+    border-radius: 40px;
+  }
+
+  #searchInput{
+    width: 70%;
+  }
+
+  #clearButton{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2.5vh;
+  }
+
+  .error-message{
+    font-size: 4vh;
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 1440px) and (orientation: portrait) {
+
+  body{
+    background-repeat: no-repeat;
+    background-size: 250% 120%;
+  }
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 199% 115%;
+    display: block;
+  }  
+
+  #drinkRecipeDiv{
+    width: 96%;
+    height: 64.5vh;
+  }
+
+  .info-divs{
+    width: 96%;
+    margin: 1% 0;
+  }
+
+  #drinkInstructionsDiv{
+    width: 96%;
+    height: fit-content;
+    order: 2;
+  }
+
+  .drink-recipe{
+    margin-left: 4%;
+    width: 100%;
+  }
+
+  .recipe-title-div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .recipe-title{
+    font-size: 2.5vh;
+    width: 100%;
+    text-decoration: underline;
+  }
+
+  .recipe{
+    max-width: 98%;
+  }
+
+  #drinkPhoto{
+    height: fit-content;
+    padding: 4% 0;
+    order: 1;
+  }
+
+  .drink-buttons{
+    width: 44vw;
+    height: 13vh;
+    padding: 3%;
+    border-radius: 40px;
+  }
+
+  #searchInput{
+    width: 70%;
+  }
+
+  #clearButton{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2.5vh;
+  }
+
+  .error-message{
+    font-size: 4vh;
+    text-align: center;
+  }
+
+
+  .modal-content{
+    max-width: 90vw;
+  }
+
+  .modal-image{
+    max-height: 30vh;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 3088px) and (orientation: landscape) {
+
+  body{
+    background-repeat: no-repeat;
+    background-size: 150%;
+  }
+
+  ::backdrop {
+    background-image: url("./images/japan.png");
+    background-size: 120% 100%;
+    display: block;
+  } 
+}
